@@ -1,0 +1,355 @@
+\documentclass{article}
+\setlength\parindent{0pt}
+\usepackage{listings}
+\renewcommand\thesection{}
+\renewcommand\thesubsection{}
+\renewcommand\thesubsubsection{}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{ifthen}
+\usepackage{mathtools}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\everymath{\displaystyle} 
+\let\emptyset\varnothing
+\usepackage[english]{babel}
+\usepackage{pgffor}
+\author{Teodoro F. Collin}
+\title{MATH 203 Pset 1: 5.1 5.2 5.9 5.14 5.19 5.22 5.25}
+\begin{document}
+\maketitle
+\frac{}{
+
+
+\section{Problem 5.1}
+As $\forall x,y\in\mathbb{R}$, $|f(x) - f(y)| \leq (x-y)^2$, if $x\neq y$, $\frac{|f(x) - f(y)|}{|x-y|} \leq (x-y)$ so then $\lim_{x\to y} \frac{|f(x) - f(y)|}{|x-y|} = |f^{\prime}(y)| \leq \lim_{x\to y} (x-y) = 0$. $ |f^{\prime}(y)| \leq 0$ implies that $f^{\prime}(y) = 0$, meaning that $f$ is constant. 
+\section{Problem 5.2}
+
+\subsection{strictly increasing}
+
+As $f^{\prime}(x) \geq 0$, we already have that it is monotonically increasing so we only need to prove that there are no two points $x_1,x_2\in (a,b)$ such that $f(x_1) = f(x_2)$ and $x_1\neq x_2$. 
+\newline
+
+Suppose this is not the case. $\exists x_1,x_2$ such that $x_1\neq x_2$ and $f(x_1) = f(x_2)$. Further, suppose without loss to generality that $x_1 > a$ and $x_2 <  b$ and $x_1 < x_2$ so that $f$ is differentiable and therefore continous on some closed sub-interval of $(a,b)$. This allows us to apply the mean value theorem so that there is an $x_3\in(x_1,x_2)$  so that $0 = f(x_2) - f(x_1) = f^{\prime}(x_3) (x_2 - x_1 )$ As $x_1 < x_2$, $x_2 - x_1 \neq 0$ so then we can divide and $\frac{0}{x_2 - x_1} = f^{\prime}(x_3)$. Clearly $x_3 \in (x_1,x_2) \subset [c,d] \subset (a,b)$ so this contradicts that $f^{\prime}(x) > 0 \forall x\in (a,b)$
+
+\subsection{the inverse}
+
+We take $y+h = f(x+i)$ and $y = f(x)$ so that $h= f(x+i) - f(x)$. We choose $x\in(a,b)$ so that $f(x)\in(f(a),f(b))$.
+\newline
+
+Next, we know the $f$ is continous and strictly increasing, which trivally yields that it is one to one as otherwise there would be two different points where the function is equal and therefore not strictly increasing.
+\newline
+
+This yields that the inverse function is continous as we are operating in $\mathbb{R}$ (4.17).
+\newline
+
+This plus composition plus the derivative of $f$ never equalling 0 allows us to write $\lim_{h\to 0} \frac{g(y+h) - g(y)}{h} = \lim_{i\to 0}\frac{i}{f(x+i)-f(x)} = \frac{1}{f^{\prime}(x)}$
+
+\section{Problem 5.9}
+
+It does exist. As $f(x)$ is continous, $\lim_{x\to 0} f(x) - f(0) = 0$ so L'hopilate's rule applies in the case of $\lim_{x\to 0} \frac{f(x) - f(0)}{x} = \lim_{x\to 0} \frac{f^{\prime}(x)}{1} = \lim_{x\to 0} f^{\prime}(x) = 3$
+
+
+
+
+
+\section{Problem 5.14}
+
+\subsection{convex iff derviative montonically increasing}
+
+First, take $z = \lambda x + (1-\lambda)y$ so that $\lambda = \frac{z-y}{x-y}$ and $1-\lambda = \frac{x-z}{x-y}$.
+
+\subsubsection{Forward}
+
+
+We then have that $f(z) \leq \lambda f(x) + (1-\lambda) f(y)$.
+\newline
+
+Move the $f(y)$ term to the other side to get  $f(z) - (1-\lambda) f(y) \leq \lambda f(x)$.
+\newline
+
+To get $(1-\lambda)$ next to $f(z)$, subtract $-\lambda f(z)$ from both sides to get: $f(z) - (1-\lambda) f(y) -\lambda f(z) \leq \lambda f(x) -\lambda f(z)$.
+\newline
+
+This gets us $(1-\lambda)(f(z) - f(y)) \leq \lambda (f(x) - f(z))$.
+\newline
+
+As these share a common denominator, multiplying through by $\frac{x-y}{(z-y)(x-z)}$ will get us the diffrence quoutiens that we want:
+\newline
+\begin{multline*}
+\frac{f(z) - f(y)}{z-y} = \frac{x-y}{(z-y)(x-z)} \cdot\frac{x-z}{x-y} (f(z) - f(y)) \leq  \frac{f(x) - f(z)}{x-z} = \frac{x-y}{(z-y)(x-z)}\frac{z-y}{x-y}  (f(x) - f(z)) 
+\end{multline*}
+Note that $f$ is differentiable and continous on $(a,b)$, and therefore on $[y,x]\subset (a,b)$. Now, we argue that on the left side we apply the mean value therom for the interval $a_1\in(y,z)$ and on the right for $b_1\in(z,x)$ where clearly $a_1 < b_1$.  Hence, we have $f^{\prime}(a_1) < f^{\prime}(b_1)$ on $(a,b)$. Hence, the derivative of f is montonically increasing.
+
+%%%kind need to fill in arguments about these points
+
+\subsubsection{Negation}
+
+Suppose that the function is not convex so that there exists an $x,y\in(a,b)$ and a $\lambda\in [0,1]$ so that $f(z) > \lambda f(x) + (1-\lambda) f(y)$ The same inequality follows and the same application of the MVT so that there are two points $a_1 < b_1$ in the same given intervals where $f^{\prime}(a_1) > f^{\prime}(b_1)$, meaning the function is not montonically increasing. 
+
+%%% replace this with
+
+\subsection{The second derivative}
+
+If $f$ is convex then $f^{\prime}$ is montonically increasing and vice-vera. If $f^{\prime}$ is montonically increasing, then its derivative, $f^{\prime\prime}$ must be $\geq 0 \forall x\in(a,b)$ Similarly, if the second deravtive is not $\geq 0 \forall x\in (a,b)$ then the first derivative is not montonically increasing and then $f$ is not convex. 
+
+\section{Problem 5.19}
+
+\subsection{Lemma}
+
+This problem is simplified by a lemma. 
+\newline
+
+Suppose $a_n,b_n \to L$ and $|\lambda_n|$ bounded by $M$. I claim that $\lambda_n a_n + (1-\lambda_n)b_n \to L$.
+\newline
+
+Given $\epsilon$, we have an $N$ such that $n>N$ implies $|a_n - L| < \epsilon$ and $|b_n - L| < \epsilon$.
+\newline
+
+Now, we wish to prove that $|\lambda_n a_n + (1-\lambda_n)b_n - L| < \epsilon$. 
+\newline
+
+Observe that 
+\begin{multline*}
+|\lambda_n a_n + (1-\lambda_n)b_n - L| = |\lambda_n a_n - \lambda_nb_n + b_n -L| \leq |\lambda_n||a_n - b_n| + |b_n -L| =  |\lambda_n| |a_n -L + L - b_n| + |b_n - L| \leq  |\lambda_n| |a_n - L| +  |\lambda_n| |b_n -L| + |b_n - L| \leq (2M+1)\epsilon
+\end{multline*}
+
+
+This completes the proof. 
+
+\subsection{a}
+
+We can write
+\begin{multline*}  
+D_n = \frac{f(\beta_n)- f(0)}{\beta_n - \alpha_n } + \frac{f(0) - f(\alpha_n)}{\beta_n - \alpha_n} = \frac{\beta_n}{\beta_n - \alpha_n} \frac{f(\beta_n)- f(0)}{\beta_n} +  \frac{-\alpha_n}{\beta_n - \alpha_n} \frac{f(0) - f(\alpha_n)}{\alpha_n}
+\end{multline*}
+We call $\frac{f(\beta_n)- f(0)}{\beta_n} = a_n$ and $\frac{f(0) - f(\alpha_n)}{\alpha_n} = b_n$ so that $D_n = \lambda_n a_n + (1-\lambda_n) b_n$
+\newline
+
+Now, by the continuity and diffrentiability of $f$ and the convergance of $\alpha_n,\beta_n \to 0$, we note that that:
+
+\begin{multline*}
+ \lim_{n\to\infty} a_n = \lim_{n\to\infty} \frac{f(\beta_n)- f(0)}{\beta_n} = \lim_{B_n \to 0}\frac{f(\beta_n)- f(0)}{\beta_n} =  f^{\prime}(0) =  \lim_{n\to\infty} \frac{f(0) - f(\alpha_n)}{\alpha_n} = \lim_{n\to\infty} b_n
+\end{multline*}
+As $-1 < \alpha_n < 0 < \beta_n < 1$, we get that $0 < -\alpha_n < \beta_n - \alpha_n $ so that $0 < \frac{-\alpha_n}{\beta_n - \alpha_n} < 1$ so that it is bounded. As $1 =  \frac{-\alpha_n}{\beta_n - \alpha_n} +  \frac{\beta_n}{\beta_n - \alpha_n}$,  $\frac{\beta_n}{\beta_n - \alpha_n} = \lambda_n$ is bounded too. 
+\newline
+
+Hence, $a_n,b_n, \lambda_n$ fulfill the conditions of our lemma and so then $D_n$ converges to $f^{\prime}(0)$.
+
+\subsection{b}
+$a_n,b_n, \lambda_n$ remain as before and we are given the boundness of $\lambda_n$ as a hypothesis. $0 < \alpha_n < \beta_n$ clearly does not alter that $D_n = \lambda_n a_n + (1-\lambda_n)b_n$ or that $a_n,b_n\to f^{\prime}(0)$. Hence, we just apply the lemma again to get $D_n \to f^{\prime}(0)$
+
+
+\subsection{c}
+
+As $-1 < \alpha_n < 1$ and $-1 < \beta_n < 1$, for each n, we have a closed interval $[\alpha_n,\beta_n]$ where $f$ is continous and differenitable (as the derivative is continous everywhere, I'm assuming it exists everywhere). For each $n$, we apply the MVT to get a $x_n$ in our interval such that $f^{\prime}(x_n) = \frac{f(\beta_n) - f(\alpha_n)}{\beta_n - \alpha_n}$. As $\alpha_n \to 0$ and $\beta_n \to 0$ as $n\to\infty$ and $\alpha_n \leq x_n \leq \beta_n$, we get $x_n \to 0$. Thus, $\lim_{n\to\infty} \frac{f(\beta_n) - f(\alpha_n)}{\beta_n - \alpha_n} = \lim_{n\to\infty} f^{\prime}(x_n) = f^{\prime}(0)$
+
+\subsubsection{Counter}
+
+$x^2\sin{\frac{1}{x}}$ is according to rudin continous everywhere on $(-1,1)$ except $0$ and diffrentiable at $0$ where it equals $0$.
+
+
+We take $\beta_n = \frac{1}{\frac{\pi}{4} + 2n\pi}$ so that the denominator of the diffrence qoutien has a constant times n and we select $\alpha_n = \frac{1}{2n\pi}$ so that the other term gives 0, leaving just n times our constant in the diffrence qoutien, and so that wolframplha shows that terms in the denominator look like those in the numerator. 
+
+$\beta_n - \alpha_n = \frac{-1}{2n\pi (8n+1)}$ while $\beta_n^2\sin{\frac{1}{\beta_n}} - 0 = \frac{\sqrt{2}}{2} \frac{16}{\pi^2 (8n+1)^2}$
+
+Thus, $\frac{\beta_n^2\sin{\frac{1}{\beta_n}}}{\beta_n - \alpha_n} = \frac{-32n}{8n\pi + \pi}\frac{\sqrt{2}}{2}$, which converges to $\frac{-32\sqrt{2}}{16\pi} \neq 0$
+
+\section{Problem 5.22}
+
+\subsection{a}
+
+Suppose not. Suppose that $\exists x_1,x_2$ where $x_1 - x_2 \neq 0$ and $f(x_1) =x_1$ and $f(x_2) = x_2$.
+
+As f is diffrenitable everywhere, we get that $\exists t\in (x_1,x_2)$ such that $\frac{f(x_1) - f(x_2)}{x_1 - x_2} = \frac{x_1 - x_2}{x_1 - x_2} = 1 = f^{\prime}(t)$, contradicting our hypothesis.
+
+\subsection{b}
+
+$t + (1 + e^{t})^{-1} = t$ implies that $\frac{1}{1+e^{t}} = 0$, which is impossible.
+
+\subsection{c}
+
+Note that $0 < |f^{\prime}(t)| \leq A < 1$ for all $t\in\mathbb{R}$ implies that the function is diffrenitable everywhere. The point is that we can use the MVT freely.
+\newline
+
+Now, by induction, we prove that $|x_{n+1} - x_n| \leq |x_1 - x_0|A^{n}$
+\newline
+
+The base case is that $|x_2 - x_1| = |f(x_1) - f(x_0)| = (MVT)|x_1 - x_0||f^{\prime}(p_2)| \leq |x_1 - x_0|A$
+\newline
+
+We assume that $|x_n - x_{n-1}| \leq |x_1 - x_0|A^{n}$ so that $|x_{n+1} - x_n| = |f(x_n) - f(x_{n-1})||f^{\prime}(p_{n+1})| \leq  |x_1 - x_0|A^{n}A =  |x_1 - x_0|A^{n+1}$
+\newline
+
+Now, $|x_m - x_n|$ for $m \geq n$ is $\leq |x_{m} - x_{m-1}| + |x_{m-1} - x_{m-2}| + ... + |x_{n+1} - x_n|$ so then $|x_m - x_n| \leq |x_1 - x_0|A^{m+1} + ... +|x_1 - x_0| A^{n+1}  = A^{n} (|x_1 - x_0| A^{m + 1-n} + ... + |x_1 - x_0|A) = |x_1 - x_0| A^n \sum_{k=1}^{m-n+1} A^{k}$. 
+\newline
+
+The term on the right  is a geometric series where $A < 1$ multiplied by a constant. So, as $n,m\to\infty$, $|x_m - x_n| \leq A^{n}\frac{|x_1 - x_0|}{1 - A}$
+\newline
+
+Thus, $\lim_{n,m\to\infty} |x_m - x_n| = 0$ because $\lim_{n,m\to\infty}  A^{n}\frac{|x_1 - x_0|}{1 - A} = 0$ and the former term sequezes the latter. 
+\newline
+
+ This means that $x_n$ is cauchy and since $\mathbb{R}$ is complete, this means that $x_n$ converges. Say that $\lim_{n\to\infty}x_n = x$.
+
+From this and composition of limits and sequences (4.2) we get: $ x = \lim_{n\to\infty} x_n = \lim_{n\to\infty} f(x_{n-1}) = f(x)$
+
+
+\subsection{d}
+
+Using python, I wrote a script to accomplish this:
+
+\begin{lstlisting}[frame=single] 
+
+import matplotlib.pyplot as plt
+
+def f(x): return 0.75 - 0.5*x
+
+
+x1 = 3
+points = []
+x2 = f(x1)
+
+def trans((x,y)):
+    if x != y:
+        points.append((y,y))
+        return trans((y,y))
+    else:
+        z = f(y)
+        if z == y:
+            points.append((y,z))
+            return (y,z)
+        else:
+            points.append((y,z))
+            return trans((y,z))
+
+
+trans((x1,x2))
+xcords = map((lambda (x,y):  x), points)
+ycords = map((lambda (x,y):  y), points)
+
+plt.plot(xcords,ycords)
+plt.show()
+
+\end{lstlisting}
+
+Here is the result, which clear demonstrates the zig-zag:
+\newline
+\includegraphics[scale=0.7]{figure_1.png}
+
+
+
+\section{25}
+
+\subsection{a}
+
+$x_{n+1}$ is the x coordinate at which the tangent line intersects the x axis.
+
+\subsection{b}
+
+To show that $x_{n+1} = x_n - \frac{f(x_n)}{f^{\prime}(x_n)} < x_n$ we need to show only that $\frac{f(x_n)}{f^{\prime}(x_n)}$ is positive. As $f^{\prime}(x_n) > 0$ for all $n\in\mathbb{N}$, we only need to prove that $f(x_n) > 0$. Similarly, starting from this conclusion, we get that  $\frac{f(x_n)}{f^{\prime}(x_n)}$ is positive so that $x_{n+1} < x_n$. In other words $x_{n+1} < x_n$ if and only if $f(x_n) > 0$
+\newline
+
+Now, as $f$ is montonically increasing and has a unique zero at $\xi$, $f(x) > 0$ if and only if $b > x > \xi$. As $x_1\in(\xi,b)$, $f(x_1) > 0$. So then $x_2 < x_1$ for our base case. 
+\newline
+
+Now, we induct to $x_{n} < x_{n-1}$, implying that $f(x_{n-1}) > 0$. We now prove that $x_{n+1}  < x_{n}$ by showing that $f(x_n) > 0$.
+\newline
+
+As $f$ is continous and diffrenitable on $[x_n, x_{n-1}]\subset [a,b]$, there exists an $x\in [x_n, x_{n-1}]$ such that $f(x_n) - f(x_{n-1}) = f^{\prime}(x)(x_n - x_{n-1})$. 
+\newline
+
+So, $ f(x_n) > f^{\prime}(x)(x_n - x_{n-1}) + f(x_{n-1}) $
+\newline
+
+Now, $x_n - x_{n-1} = x_{n-1} - \frac{f(x_{n-1})}{f^{\prime}(x_{n-1})} - x_{n-1} =  - \frac{f(x_{n-1})}{f^{\prime}(x_{n-1})}$
+\newline
+
+Therefore, 
+\begin{multline*}  
+ f^{\prime}(x)(x_n - x_{n-1}) + f(x_{n-1}) =\frac{ -f^{\prime}(x)f(x_{n-1}) + f^{\prime}(x_{n-1}) f(x_{n-1})  }{f^{\prime}(x_{n-1})} = 
+(f^{\prime}(x_{n-1}) - f^{\prime}(x))f(x_{n-1})\frac{1}{f^{\prime}(x_{n-1})}
+\end{multline*}
+Now, by problem 14, $f^{\prime\prime} \geq 0$ implies that $f^{\prime}$ is montonically increasing. As $x\in[x_n, x_{n-1}]$ we get that $x_{n-1} \geq x$. So then $f^{\prime}$ montonically increasing implies that $(f^{\prime}(x_{n-1}) - f^{\prime}(x)) \geq 0$ .Thus 
+
+
+$ (f^{\prime}(x_{n-1}) - f^{\prime}(x))f(x_{n-1})\frac{1}{f^{\prime}(x_{n-1})} \geq 0 $
+\newline
+
+Thus,
+
+$f(x_n) > f^{\prime}(x)(x_n - x_{n-1}) + f(x_{n-1})  = (f^{\prime}(x_{n-1}) - f^{\prime}(x))f(x_{n-1})\frac{1}{f^{\prime}(x_{n-1})} \geq 0$
+\newline
+
+Thus, $f(x_n) > 0$ so then $x_{n+1}  < x_{n}$, completing the induction.
+\newline
+
+Now, note that if $x_n$ were ever to be less than $\xi$ this would contradict what we just proved as $f(x_n) < 0$ if $x_n < \xi$ (again because $f$ is montonically increasing and the existence of a unique zero at $\xi$). Hence $x_n$ is bounded below by $\xi$. As $x_n$ is montonically decreasing and bounded below, it converges to something. 
+\newline
+
+To show that $\lim_{n\to\infty}(x_n) = \xi$, take the limit of both sides of  $-x_{n+1} + x_n = \frac{f(x_n)}{f^{\prime}(x_n)}$.
+\newline
+
+We get that $0 = \lim_{n\to\infty}\frac{f(x_n)}{f^{\prime}(x_n)}$.
+\newline
+
+ As $f^{\prime}(x_n)$ is never $0$, we get that $0 = \lim_{n\to\infty}f(x_n)$
+\newline
+
+As $\xi$ is unique, the only point that fulfils the critera for $\lim_{n\to\infty}f(x_n) = 0$ is $\xi$.
+\newline
+
+Hence, $\lim_{n\to\infty} x_n = \xi$
+
+
+\subsection{c}
+
+By taylor's theorm there is a $t_n \in(\xi,x_n)$ such that $f(\xi) = f(x_n) + f^{\prime}(x_n)(\xi - x_n) + \frac{f^{\prime\prime}(t_n)}{2}(\xi - x_n)^2$
+
+As $f(\xi) = 0$, we get $-f(x_n) = f^{\prime}(x_n)(\xi - x_n) + \frac{f^{\prime\prime}(t_n)}{2}(\xi - x_n)^2$ 
+
+And then by diving by $f^{\prime}(x_n)$, $\frac{-f(x_n)}{f^{\prime}(x_n)} = \xi - x_n + \frac{f^{\prime\prime}(t_n)}{2f^{\prime}(x_n)}(\xi - x_n)^2$
+
+Add $x_n$ and subtracting $\xi$ from both sides, and we get:
+
+ $x_{n+1} - \xi = x_n - \frac{f(x_n)}{f^{\prime}(x_n)} - \xi = \frac{f^{\prime\prime}(t_n)}{2f^{\prime}(x_n)}(\xi - x_n)^2$
+
+\subsection{d}
+
+By applying the above and the bound of the derivatives, we get a base case: $x_2 - \xi \leq A(x_1 - \xi)^2 = \frac{1}{A}(A(x_1 - \xi))^{2^{1}}$
+
+We assume up to $n$: $x_n - \xi \leq \frac{1}{A}(A(x_1 - \xi))^{2^{n-1}}$.
+
+Now we have that $x_{n+1} - \xi  < A(x_n - \xi)^2$ by c and so $A(x_{n+1} - \xi) < (A(x_n - \xi))^2$
+
+Hence, we multiply both sides of the assumption by A and then square it to get:
+
+$A(x_{n+1} - \xi) \leq  (A(x_n - \xi))^2 \leq \frac{A}{A}(A(x_1 - \xi))^{2^{n}}$
+
+Then, $ (x_{n+1} - \xi) \leq \frac{1}{A}(A(x_1 - \xi))^{2^{n}}$
+
+\subsection{e}
+
+\subsubsection{Fixed Point}
+
+Plug in $\xi$ and we get $g(\xi) = \xi - \frac{f(\xi)}{f^{\prime}(\xi)} = \xi - \frac{0}{f^{\prime}(\xi)} = \xi$ i .e $\xi$ is a fixed point.
+
+\subsubsection{Behavior near $\xi$}
+
+$g^{\prime}(x) = \frac{f(x)f^{\prime\prime}(x)}{|(f^{\prime}(x))^2|}$ and since $f(\xi) = 0$ and the first derivative is never 0, we gather that $g$'s deriavtive goes to $0$ as x goes to $\xi$.
+
+\subsection{f}
+
+$x_{n+1} = -2x_n$ Hence, depending on your starting point, the approximation doesn't converge because it goes to $-\infty$ or $\infty$. This can probably be attributed to having an unbounded second derivative.
+
+
+
+
+
+\end{document}
+
+
+   

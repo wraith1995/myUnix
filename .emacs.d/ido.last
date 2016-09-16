@@ -1,0 +1,137 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/teodoro/gits/blog/" . "gwern.net/")
+ ("/home/teodoro/gits/stochasticarchive.net/static/" . "css/")
+ ("/home/teodoro/gits/stochasticarchive.net/blog/gwern.net/static/" . "css/")
+ ("/home/teodoro/gits/stochasticarchive.net/blog/gwern.net/" . "static/")
+ ("/home/teodoro/gits/stochasticarchive.net/blog/" . "gwern.net/")
+ ("/home/teodoro/gits/stochasticarchive.net/" . "static/")
+ ("/home/teodoro/gits/" . "blog/")
+ ("/home/teodoro/teocollin1995@gmail.com/reu2016/" . "paper/")
+ ("/home/teodoro/teocollin1995@gmail.com/" . "reu2016/")
+ ("/home/teodoro/binfiles/" . "ptp/")
+ ("/home/teodoro/projects/phil/" . "src/")
+ ("/home/teodoro/projects/guessing_game/" . "src/")
+ ("/home/teodoro/projects/" . "phil/")
+ ("/home/teodoro/" . "gits/")
+ ("/home/" . "teodoro/")
+ ("/" . "home/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/teodoro/gits/"
+ "/home/teodoro/"
+ "/home/teodoro/tests/difflab/"
+ "/home/teodoro/gits/blog/gwern.net/"
+ "/home/teodoro/gits/stochasticarchive.net/static/css/"
+ "/home/teodoro/gits/stochasticarchive.net/blog/gwern.net/static/css/"
+ "/home/teodoro/gits/stochasticarchive.net/blog/gwern.net/"
+ "/home/teodoro/gits/stochasticarchive.net/"
+ "/home/teodoro/teocollin1995@gmail.com/reu2016/paper/"
+ "/home/teodoro/binfiles/ptp/"
+ "/home/teodoro/org/"
+ "/home/teodoro/pcl/"
+ "/home/teodoro/binfiles/commenter/"
+ "/home/teodoro/binfiles/"
+ "/home/teodoro/projects/phil/src/"
+ "/home/teodoro/projects/guessing_game/src/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "note"
+ ".emacs"
+ "b"
+ "a"
+ ".bash_profile"
+ ".bashrc"
+ ".profile"
+ "Archiving URLs.page"
+ "default.css"
+ "Statistical notes.page"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/teodoro/gits/" (22492 3384 444867 146000) "wpschain/" "KinkList/" "stats101/" "imgcurl/" "../" "FBEraser/" "RMT_Spring_2016/" "gstatic/" "cig/" "bitlbee-facebook/" "rembot/" "appengine-flask-skeleton/" "nethogs/" "note" "Green/" "mgg/" "urbit/" "functionalfinalproject/" "flask-appengine-template/" "warcimg/" "bitlbee-3.4.2.tar.gz" "complex/" "rudinRebuilt/" "persistentHomology/" "z3squared/" "blog/" "redditexp/" "bitlbee-3.4.2/" "devblogs/" "google_appengine/" "fb-post-bulk-privacy-edit/" "tghist/" "Apartment14W/" "commenter/" "PyBot/" "cmd_girls_und_panzer/" "stochasticarchive.net/" "ppdata/" "lainGame/" "tgs/" "gwern.net/" "json-glib/" "texts/" "./")
+
+ ("/home/teodoro/" (22492 3379 308958 23000) "pia.sh" "Public/" "bin/" "crypt/" ".ghc/" ".bash_history" "teocollin1995@gmail.com/" ".pki/" ".emacs~" ".pia_manager/" ".gnome/" ".indicator-sysmonitor.json" ".Mathematica/" ".TelegramDesktop/" "tg/" "../" ".bash_logout" ".local/" "The Crap Folder/" ".python_history" ".profile" "snoopy-install.sh" ".xsession-errors.old" ".dbus/" ".com.privateinternetaccess.vpn/" "Dump/" ".gconf/" "Desktop/" ".Xauthority" ".Wolfram/" ".backup/" ".mozilla/" "Pictures/" "Documents/" "tests/" ".adobe/" ".bashrc" ".bash_profile" ".emacs" "Videos/" "Music/" ".dmrc" ".macromedia/" ".ICEauthority" ".key/" ".gstreamer-0.10/" "Templates/" "Downloads/" ".emacs.d/" "gits/" ".gnupg/" ".bash_eternal_history" ".config/" "binfiles/" ".xsession-errors" ".wget-hsts" ".cache/" ".sudo_as_admin_successful" ".gtk-bookmarks" ".opera/" "./" ".pia_manager_crash.log" ".stack/")
+
+ ("/home/teodoro/tests/" (22492 2017 309187 978000) "../" "difflab/" "./")
+
+ ("/home/teodoro/tests/difflab/" (22492 2034 269992 612000) "../" "a" "./" "b")
+
+ ("/home/teodoro/gits/blog/gwern.net/" (22400 27343 333345 0) "Suzanne Delage.page" "Yawgoog injustice.page" "In Defense Of Inclusionism.page" "markdown-lint.sh" "Feed.hs" "Mead.page" "HN.page" "Hyperbolic Time Chamber.page" "Embryo editing.page" "otaku.page" "Mistakes.page" "Zeo.page" "presocratic-path-to-atomism.page" "Evolutionary Licenses.page" "Melatonin.page" "catnip.page" "Cryonics.page" "Wooden pillows.page" "education-is-not-about-learning.page" "Lifelogging.page" "Ontological pantheism.page" "komm-susser-tod.page" "Timestamping.page" "Nootropics.page" "Blackmail.page" "Music distraction.page" "2011 San Francisco.page" "Resorter.page" "fog-gun.page" "Drug heuristics.page" "Touhou.page" "Lunar sleep.page" "Charity is not about helping.page" "Barratry.page" "ICON 2011.page" "Iodine.page" "backfire-effect.page" "Bitcoin is Worse is Better.page" "Death Note script.page" "Anime criticism is not about quality.page" "The Narrowing Circle.page" "plastination.page" "wittgenstein-thesis.page" "Google shutdowns.page" "Spaced repetition.page" "Console Insurance.page" "Simulation inferences.page" "haskell/" "Prediction markets.page" "Mail delivery.page" "mugging.page" "Wikipedia and YouTube.page" "Zen and the Art of Bicycle Maintenance.page" "The Existential Risk of Mathematical Error.page" "Turing-complete.page" "TODO.page" "Candy Japan.page" "Sand.page" "The Melancholy of Kyon.page" "the-long-stagnation.page" "Longevity.page" "on-really-trying.page" "Book reviews.page" "AB testing.page" "Isomorphisms.page" "Ethical sperm donation.page" "Death Note Anonymity.page" "TPB Bitcoin.page" "Melon.page" "otaku-essay.page" "The Melancholy of Subculture Society.page" "Immoral Books.page" "Against The Miletians.page" "Culture is not about Esthetics.page" "hpmor-predictions.page" "intermittent-fasting.page" "An Abortion Dialogue.page" "Wikipedia and Knol.page" "Causality.page" "Bicycles and Rationality.page" "Changelog.page" "docs/" "Sunk cost.page" "On Stress.page" ".git/" "Black-market arrests.page" "Choosing Software.page" "Self-decrypting files.page" "hafu.page" "Tea.page" "Life contract.page" "Modafinil.page" "Resilient Haskell Software.page" "DNB FAQ.page" "Terrorism is not about Terror.page" "Greenland.page" "dune.page" "DNB meta-analysis.page" "Copyright.page" "Conscientiousness and online education.page" "Google Alerts.page" "index.page" "Terrorism is not Effective.page" "Colder Wars.page" "Aria's past, present, and future.page" "Modafinil survey.page" "Black-market archives.page" "newsletter/" "Links.page" "Silk Road.page" "Complexity vs AI.page" "Slowing Moore's Law.page" "Treadmill.page" "Wikipedia and Other Wikis.page" "static/" "ICON 2012.page" "Death Note Ending.page" "On Disrespect.page" "The 3 Grenades.page" "Weather.page" "LSD microdosing.page" "sources-of-religious-experience.page" "2012 election predictions.page" "Lewis meditation.page" "Wikipedia and Dark Side Editing.page" "images/" "sicp/" "Creatine.page" "fiction/" "Nicotine.page" "EA donations.page" "23andMe.page" "Wikipedia resume.page" "soylent.page" "hpmor.page" "Justifications.page" "indian-logic.page" "Correlation.page" "Girl Scouts and good governance.page" "2005 Europe trip.page" "Archiving URLs.page" "Haskell Summer of Code.page" "About.page" "hakyll.hs" "iq.page" "Anchoring.page" "Black-market survival.page" "Statistical notes.page" "otaku-predictions.page" "ICON 2010.page" "FMP parody.page" "2014 spirulina.page" "Notes.page" "LLLT.page" "Embryo selection.page" "2006 Cornell TKD.page" "../" "./")
+
+ ("/home/teodoro/gits/blog/" (22400 25790 909413 0) "../" "actual/" "my-site/" "gwern.net/" "./" "wip/")
+
+ ("/home/teodoro/gits/stochasticarchive.net/static/css/" (22491 45348 324127 236000) "../" "default.css" "./")
+
+ ("/home/teodoro/gits/stochasticarchive.net/static/" (22471 45344 119643 0) "css/" "templates/" "../" "./")
+
+ ("/home/teodoro/gits/stochasticarchive.net/" (22491 45301 842270 871000) "actual.cabal" "documentation.markdown" "site.hs" "../" "org/" "_cache/" "resource/" ".gitignore" "index.markdown" "stack.yaml" "_site/" "whoami.markdown" ".git/" "blog/" "firstarticle.org" "static/" ".stack-work/" "README.md" "./")
+
+ ("/home/teodoro/gits/stochasticarchive.net/blog/gwern.net/static/css/" (22471 45380 891641 0) "../" "default.css" "./")
+
+ ("/home/teodoro/gits/stochasticarchive.net/blog/gwern.net/static/" (22471 45380 915641 0) "css/" "templates/" "../" "plugins/" "robots.txt" "img/" "404.html" "js/" "./")
+
+ ("/home/teodoro/gits/stochasticarchive.net/blog/gwern.net/" (22471 45380 991641 0) "Suzanne Delage.page" "Yawgoog injustice.page" "In Defense Of Inclusionism.page" "markdown-lint.sh" "Feed.hs" "Mead.page" "HN.page" "Hyperbolic Time Chamber.page" "Embryo editing.page" "otaku.page" "Mistakes.page" "Zeo.page" "presocratic-path-to-atomism.page" "Evolutionary Licenses.page" "Melatonin.page" "catnip.page" "Cryonics.page" "Wooden pillows.page" "education-is-not-about-learning.page" "Lifelogging.page" "Ontological pantheism.page" "komm-susser-tod.page" "Timestamping.page" "Nootropics.page" "Blackmail.page" "Music distraction.page" "2011 San Francisco.page" "Resorter.page" "fog-gun.page" "Drug heuristics.page" "Touhou.page" "Lunar sleep.page" "Charity is not about helping.page" "Barratry.page" "ICON 2011.page" "Iodine.page" "backfire-effect.page" "Bitcoin is Worse is Better.page" "Death Note script.page" "Anime criticism is not about quality.page" "The Narrowing Circle.page" "plastination.page" "wittgenstein-thesis.page" "Google shutdowns.page" "Spaced repetition.page" "Console Insurance.page" "Simulation inferences.page" "haskell/" "Prediction markets.page" "Mail delivery.page" "mugging.page" "Wikipedia and YouTube.page" "Zen and the Art of Bicycle Maintenance.page" "The Existential Risk of Mathematical Error.page" "Turing-complete.page" "TODO.page" "Candy Japan.page" "Sand.page" "The Melancholy of Kyon.page" "the-long-stagnation.page" "Longevity.page" "on-really-trying.page" "Book reviews.page" "AB testing.page" "Isomorphisms.page" "Ethical sperm donation.page" "Death Note Anonymity.page" "TPB Bitcoin.page" "Melon.page" "otaku-essay.page" "The Melancholy of Subculture Society.page" "Immoral Books.page" "Against The Miletians.page" "Culture is not about Esthetics.page" "hpmor-predictions.page" "intermittent-fasting.page" "An Abortion Dialogue.page" "Wikipedia and Knol.page" "Causality.page" "Bicycles and Rationality.page" "Changelog.page" "docs/" "Sunk cost.page" "On Stress.page" ".git/" "Black-market arrests.page" "Choosing Software.page" "Self-decrypting files.page" "hafu.page" "Tea.page" "Life contract.page" "Modafinil.page" "Resilient Haskell Software.page" "DNB FAQ.page" "Terrorism is not about Terror.page" "Greenland.page" "dune.page" "DNB meta-analysis.page" "Copyright.page" "Conscientiousness and online education.page" "Google Alerts.page" "index.page" "Terrorism is not Effective.page" "Colder Wars.page" "Aria's past, present, and future.page" "Modafinil survey.page" "Black-market archives.page" "newsletter/" "Links.page" "Silk Road.page" "Complexity vs AI.page" "Slowing Moore's Law.page" "Treadmill.page" "Wikipedia and Other Wikis.page" "static/" "ICON 2012.page" "Death Note Ending.page" "On Disrespect.page" "The 3 Grenades.page" "Weather.page" "LSD microdosing.page" "sources-of-religious-experience.page" "2012 election predictions.page" "Lewis meditation.page" "Wikipedia and Dark Side Editing.page" "images/" "sicp/" "Creatine.page" "fiction/" "Nicotine.page" "EA donations.page" "23andMe.page" "Wikipedia resume.page" "soylent.page" "hpmor.page" "Justifications.page" "indian-logic.page" "Correlation.page" "Girl Scouts and good governance.page" "2005 Europe trip.page" "Archiving URLs.page" "Haskell Summer of Code.page" "About.page" "hakyll.hs" "iq.page" "Anchoring.page" "Black-market survival.page" "Statistical notes.page" "otaku-predictions.page" "ICON 2010.page" "FMP parody.page" "2014 spirulina.page" "Notes.page" "LLLT.page" "Embryo selection.page" "2006 Cornell TKD.page" "../" "./")
+
+ ("/home/teodoro/gits/stochasticarchive.net/blog/" (22471 45380 995641 0) "../" "actual/" "my-site/" "gwern.net/" "./" "wip/")
+
+ ("/home/teodoro/gits/gwern.net/" (22394 5646 304471 0) "Suzanne Delage.page" "Yawgoog injustice.page" "In Defense Of Inclusionism.page" "markdown-lint.sh" "Feed.hs" "Mead.page" "HN.page" "Hyperbolic Time Chamber.page" "Embryo editing.page" "otaku.page" "Mistakes.page" "Zeo.page" "presocratic-path-to-atomism.page" "Evolutionary Licenses.page" "Melatonin.page" "catnip.page" "Cryonics.page" "Wooden pillows.page" "education-is-not-about-learning.page" "Lifelogging.page" "Ontological pantheism.page" "komm-susser-tod.page" "Timestamping.page" "Nootropics.page" "Blackmail.page" "Music distraction.page" "2011 San Francisco.page" "Resorter.page" "fog-gun.page" "Drug heuristics.page" "Touhou.page" "Lunar sleep.page" "Charity is not about helping.page" "Barratry.page" "ICON 2011.page" "Iodine.page" "backfire-effect.page" "Bitcoin is Worse is Better.page" "Death Note script.page" "Anime criticism is not about quality.page" "The Narrowing Circle.page" "plastination.page" "wittgenstein-thesis.page" "Google shutdowns.page" "Spaced repetition.page" "Console Insurance.page" "Simulation inferences.page" "haskell/" "Prediction markets.page" "Mail delivery.page" "mugging.page" "Wikipedia and YouTube.page" "Zen and the Art of Bicycle Maintenance.page" "The Existential Risk of Mathematical Error.page" "Turing-complete.page" "TODO.page" "Candy Japan.page" "Sand.page" "The Melancholy of Kyon.page" "the-long-stagnation.page" "Longevity.page" "on-really-trying.page" "Book reviews.page" "AB testing.page" "Isomorphisms.page" "Ethical sperm donation.page" "Death Note Anonymity.page" "TPB Bitcoin.page" "Melon.page" "otaku-essay.page" "The Melancholy of Subculture Society.page" "Immoral Books.page" "Against The Miletians.page" "Culture is not about Esthetics.page" "hpmor-predictions.page" "intermittent-fasting.page" "An Abortion Dialogue.page" "Wikipedia and Knol.page" "Causality.page" "Bicycles and Rationality.page" "Changelog.page" "docs/" "Sunk cost.page" "On Stress.page" ".git/" "Black-market arrests.page" "Choosing Software.page" "Self-decrypting files.page" "hafu.page" "Tea.page" "Life contract.page" "Modafinil.page" "Resilient Haskell Software.page" "DNB FAQ.page" "Terrorism is not about Terror.page" "Greenland.page" "dune.page" "DNB meta-analysis.page" "Copyright.page" "Conscientiousness and online education.page" "Google Alerts.page" "index.page" "Terrorism is not Effective.page" "Colder Wars.page" "Aria's past, present, and future.page" "Modafinil survey.page" "Black-market archives.page" "newsletter/" "Links.page" "Silk Road.page" "Complexity vs AI.page" "Slowing Moore's Law.page" "Treadmill.page" "Wikipedia and Other Wikis.page" "static/" "ICON 2012.page" "Death Note Ending.page" "On Disrespect.page" "The 3 Grenades.page" "Weather.page" "LSD microdosing.page" "sources-of-religious-experience.page" "2012 election predictions.page" "Lewis meditation.page" "Wikipedia and Dark Side Editing.page" "images/" "sicp/" "Creatine.page" "fiction/" "Nicotine.page" "EA donations.page" "23andMe.page" "Wikipedia resume.page" "soylent.page" "hpmor.page" "Justifications.page" "indian-logic.page" "Correlation.page" "Girl Scouts and good governance.page" "2005 Europe trip.page" "Archiving URLs.page" "Haskell Summer of Code.page" "About.page" "hakyll.hs" "iq.page" "Anchoring.page" "Black-market survival.page" "Statistical notes.page" "otaku-predictions.page" "ICON 2010.page" "FMP parody.page" "2014 spirulina.page" "Notes.page" "LLLT.page" "Embryo selection.page" "2006 Cornell TKD.page" "../" "./")
+
+ ("/home/teodoro/binfiles/" (22487 8161 684110 0) "boing.py" "scripts/" "telegram_histories.sh" "../" "ip.sh" "fun.sh" "AAA.sh" "ssid.sh" "unboing.py" "catdir.sh" "a" "waittest.sh" "#try.sh#" "elm-package.json" "killnetworkmanager.sh" "#catdir.sh#" "test" "mathhwmk.sh" "lip.sh" "tavern.rb" "elm-stuff/" "stero/" "linkfile.sh" "faust.sh" "65b8f43197690a01a8bb/" "tghist/" "commenter/" "condmsg.sh" "stardate/" "vig.hs" "shuf.hs" "ssid" ".#catdir.sh" "telegramtex.sh" "repl-temp-000.elm" "./" "try.sh" "tg_histories.sh" "ptp/")
+
+ ("/home/teodoro/binfiles/commenter/" (22016 17537 284296 0) "commener.lisp" "../" "comments.py" "comments" "./")
+
+ ("/home/teodoro/binfiles/ptp/" (21998 56220 581750 0) "r_packages" "p3" "progressbar.sh" "copy" "../" "r_add_packages.sh" "quicklisp_get_packages.sh" "apt-repo" "p2" "pip_add_packages.sh" ".transfer_scripts" "apt-get-repos.sh" ".list_of_package_scripts" "apt-add-packages.sh" "pip_get_packages.sh" "start" "end" "apt-packages" "julia_add_packages.sh" ".list_of_config_dirs" ".list_of_config_files" "apt-add-repos.sh" "quicklisp.sh" "apt-get-packages.sh" "juliapackages" "julia_get_packages.sh" "./" "backup-pe.sh" "r_get_packages.sh")
+
+ ("/home/teodoro/teocollin1995@gmail.com/reu2016/paper/" (22491 3155 500766 909000) "../" "collin.tex" "paper.tex.bk.2" "feedbackmay" "collin.aux" "collin.log" "_region_.tex" "_region_.log" "paper.log" "paper.toc" "prv_collin.log" "collin.toc" "paper.tex.bk" "auto/" "notes.org" "collinRoughDraft.pdf" "paper.pdf" "paper.tex" "_region_.prv/" "./" "paper.aux" "thingstodo" "collin.pdf")
+
+ ("/home/teodoro/teocollin1995@gmail.com/reu2016/" (22490 29915 301622 890000) "../" "bpres/" "texedstuff/" "paper/" "641012632.pdf" "books/" "tmp/" "mayfeedback/" "VisualComplexAnalysis-Needham.pdf" "wigner1955.pdf" "./" "pres/" "RandomMatricesAGZ.pdf")
+
+ ("/home/teodoro/teocollin1995@gmail.com/" (22490 45477 69989 172000) "fanfic/" "notes/" "Data stuff/" "Distribution Point/" "Dump for transfer/" "mathbooksdump/" "Games/" "Winter break reading project (Kunen)/" "teno.odt" "drop/" "srs.odt" "CS161 Review.gddoc" "../" "dnd/" "org/" "C:UserstestAppDataLocalTempInv_29201_from_LEATHER_ETC..pdf" "Burke Group/" "mond transfer/" "Tech Orientation Lesson Plans Student 2014.gddoc" "Uchicago 2014 - 2014/" "collin_essay2VenableComments.docx" "manuals/" "Programming/" "You’ll Be Back.gddoc" "ptp.tgz" "Algebra - Serge Lang.pdf" "Maclean Photos/" "high school crap very disorngaized dont look ever/" "Math Text Share/" "damian_stuff.gddoc" "Stat 244 Note Sheet.gddoc" "Summer 2016 Tech Schedule.gdsheet" "247A.Notes.pdf" "SC Gen Prez. Poll Report 9-14-16.pdf" "V3 draft (Gigi).gddoc" "uchicago20161/" "More Crap/" "CS161 Midterm Cheat Sheet.gddoc" "Organizational/" "uchicago20152/" "Archive/" "Transfer/" "Endings Experiment.gddoc" "Fanfic B/" "memos/" "Blog failures/" "2013-14 Hum Core Syllabi (copy)/" "Projects New/" "root folder/" "Fanfic A/" "Burke Drive/" "syllbus/" "I CANT MAKE IT ON MY OWNNNWNWNWNWNW.mp4" "Random/" "damian_signatures.gddoc" "tempb/" "Your Anime Sucks- Sword Art Online II [part 2] PROGRESSIVE; OFFICIAL PUBLISHED VERSION.mp4" "functionalFinalProject/" "./" "reu2016/" "Uchicago 2015/" "MScdssrtnWrwck.pdf" "uchicago20162/")
+
+ ("/home/teodoro/quicklisp/" (21974 38554 382472 941000) "asdf.lisp" "setup.lisp" "tmp/" "quicklisp/" "../" "cache/" "./" "client-info.sexp" "local-projects/" "dists/")
+
+ ("/home/teodoro/org/" (21996 50669 905897 8000) "work.org" "../" "./" "projects.org" "reading.org" "school.org" "backuppe.org" "general.org" "computer.org" "random.org")
+
+ ("/usr/" (21969 6803 340546 119000) "src/" "bin/" "include/" "lib/" "lib32/" "../" "share/" "games/" "local/" "./" "sbin/")
+
+ ("/bin/" (21908 47698 403706 796000) "ping6" "journalctl" "dir" "ntfscmp" "machinectl" "ln" "fusermount" "which" "lessecho" "netcat" "egrep" "chvt" "lowntfs-3g" "mktemp" "ntfsfallocate" "pwd" "stty" "ntfs-3g" "red" "znew" "nc" "dash" "ntfstruncate" "mv" "nano" "bzmore" "mt-gnu" "ss" "mountpoint" "fgconsole" "rnano" "lessfile" "true" "plymouth-upstart-bridge" "systemd-machine-id-setup" "loadkeys" "systemd-escape" "kill" "sh.distrib" "umount" "zless" "kbd_mode" "sed" "bzfgrep" "kmod" "lsblk" "bzip2" "bzdiff" "echo" "cpio" "ypdomainname" "ntfsmove" "hostname" "systemd-hwdb" "ed" "getfacl" "touch" "lesspipe" "bzless" "ntfsfix" "vdir" "grep" "systemd-tty-ask-password-agent" "systemd-inhibit" "setupcon" "domainname" "zmore" "sh" "lesskey" "df" "sync" "gzexe" "mount" "zcmp" "systemd-ask-password" "systemctl" "ntfs-3g.usermap" "static-sh" "nisdomainname" "ntfsls" "bzcat" "rbash" "openvt" "rmdir" "ntfs-3g.secaudit" "zegrep" "ulockmgr_server" "rm" "zgrep" "bzcmp" "ip" "cat" "bzexe" "dd" "ps" "setfacl" "sleep" "systemd-tmpfiles" "chown" "bunzip2" "nc.openbsd" "wdctl" "systemd-notify" "ntfswipe" "busybox" "ls" "dmesg" "loginctl" "bash" "running-in-container" "ntfscluster" "../" "chmod" "uname" "chacl" "udevadm" "networkctl" "findmnt" "fuser" "tailf" "vmmouse_detect" "zfgrep" "lsmod" "fgrep" "zforce" "efibootmgr" "bzip2recover" "readlink" "tar" "zdiff" "uncompress" "whiptail" "mt" "setfont" "ping" "unicode_start" "open" "./" "cp" "run-parts" "su" "gunzip" "pidof" "bzgrep" "more" "gzip" "login" "plymouth" "mknod" "ntfscat" "less" "mkdir" "bzegrep" "ntfs-3g.probe" "dumpkeys" "dnsdomainname" "tempfile" "zcat" "chgrp" "netstat" "date" "ntfsinfo" "systemd" "false")
+
+ ("/home/teodoro/pcl/" (21986 14635 226468 832000) "3.lisp" ".#3.lisp" ".#1.lisp" "#3.lisp#" "1.el" "9.lisp" "1.cl" "1.fasl" "2.lisp" "../" "#1.lisp#" "1.lisp" "./")
+
+ ("/home/teodoro/pc/" (21976 1958 465962 601000) "../" "./")
+
+ ("/home/teodoro/.emacs.d/" (21968 10592 38897 666000) "Pymacs/" "ac-comphist.dat" "deep-thought-theme.el" "elpa/" "ido.last~" "ecb/" "ido.last" "ropemacs/" "url/" "auto-complete.el" "docs/" "auto-complete-pkg.el" "ac-dict/" "auto-complete/" "../" "games/" "auto-complete-config.el" "auto-save-list/" "./" "autopair.el")
+
+ ("/home/teodoro/.emacs.d/elpa/" (21973 18528 278760 615000) "flymake-0.4.16/" "http-readme.txt" "auctex-11.88.6.signed" "typing-readme.txt" "twig-mode-readme.txt" "emacs-xkcd-1.0/" "fill-column-indicator-readme.txt" "rust-mode-20150708.1641/" "ctable-20140304.1659/" "auto-complete-20150618.1949/" "autopair-20140825.427/" "chess-2.0.4.signed" "undo-tree-0.6.5/" "ess-R-data-view-20130509.458/" "d-mode-20150621.614/" "undo-tree-0.6.5.signed" "autotetris-mode-20141114.846/" "chess-readme.txt" "delim-kill-readme.txt" "delim-kill-20100516.2320/" "ecb-2.40/" "virtualenv-1.2/" "autotetris-mode-readme.txt" "ess-20150622.413/" "julia-mode-readme.txt" "slime-readme.txt" "slime-20150818.1428/" "archives/" "../" "chess-2.0.4/" "fill-column-indicator-20140509.1101/" "gnupg/" "./" "julia-mode-20150707.1636/" "auctex-11.88.6/" "popup-20150626.711/" "haskell-mode-20150707.1108/" "w3m-20150608.1838/" "fcitx-readme.txt" "undo-tree-readme.txt" "flymake-checkers-0.5/")
+
+ ("/home/teodoro/.emacs.d/elpa/slime-20150818.1428/" (21973 18527 206769 350000) "swank.lisp" "dir" "swank.asd" "swank/" "start-swank.lisp" "slime.el" "nregex.lisp" "slime-pkg.el" "sbcl-pprint-patch.lisp" "slime-tests.el" "xref.lisp" "slime-autoloads.elc" "lib/" "swank-loader.lisp" "slime.elc" "contrib/" "slime-autoloads.el" "../" "metering.lisp" "slime-tests.elc" "./" "ChangeLog" "slime.info")
+
+ ("/home/teodoro/projects/guessing_game/src/" (21932 26493 707335 839000) "main.rs" "../" "./")
+
+ ("/home/teodoro/projects/phil/src/" (21932 30394 15992 369000) "main.rs" "../" "./")
+
+ ("/home/teodoro/projects/phil/" (21932 26644 378316 113000) "src/" "Cargo.toml" "../" ".git/" "./" ".gitignore")
+
+ ("/home/teodoro/projects/guessing_game/" (21932 26854 572853 197000) "src/" "Cargo.lock" "Cargo.toml" "../" ".git/" "./" ".gitignore" "target/")
+
+ ("/home/teodoro/projects/" (21932 26644 374316 141000) "phil/" "guessing_game/" "../" "./")
+
+ ("/home/teodoro/.emacs.d/elpa/haskell-mode-20150707.1108/" (21926 63508 614226 327000) "haskell-complete-module.elc" "dir" "haskell-unicode-input-method.el" "haskell-load.elc" "haskell-navigate-imports.elc" "haskell-repl.elc" "w3m-haddock.el" "haskell.elc" "NEWS" "haskell-modules.elc" "haskell-presentation-mode.elc" "haskell-repl.el" "haskell-interactive-mode.el" "inf-haskell.el" "haskell-package.el" "haskell-doc.elc" "haskell-menu.el" "haskell-debug.elc" "ghc-core.el" "haskell-doc.el" "highlight-uses-mode.elc" "haskell-cabal.el" "haskell-string.el" "haskell-font-lock.el" "haskell-mode.el" "haskell-mode.info" "haskell-mode.elc" "haskell-collapse.elc" "haskell-checkers.elc" "haskell-cabal.elc" "haskell-compile.el" "haskell.el" "w3m-haddock.elc" "haskell-commands.el" "haskell-commands.elc" "haskell-sandbox.elc" "haskell-process.el" "ghci-script-mode.el" "haskell-interactive-mode.elc" "haskell-indentation.elc" "haskell-navigate-imports.el" "haskell-completions.el" "haskell-decl-scan.el" "haskell-utils.el" "haskell-bot.el" "haskell-move-nested.elc" "highlight-uses-mode.el" "ghci-script-mode.elc" "haskell-compile.elc" "haskell-completions.elc" "haskell-indent.el" "haskell-utils.elc" "haskell-decl-scan.elc" "ghc-core.elc" "haskell-move-nested.el" "haskell-customize.el" "haskell-modules.el" "haskell-menu.elc" "haskell-collapse.el" "haskell-indent.elc" "haskell-complete-module.el" "haskell-compat.el" "haskell-package.elc" "../" "logo.svg" "haskell-sandbox.el" "haskell-compat.elc" "haskell-bot.elc" "haskell-align-imports.elc" "haskell-simple-indent.elc" "haskell-sort-imports.elc" "haskell-string.elc" "haskell-presentation-mode.el" "haskell-sort-imports.el" "haskell-load.el" "./" "haskell-simple-indent.el" "haskell-mode-pkg.el" "haskell-font-lock.elc" "haskell-session.elc" "haskell-mode-autoloads.el" "haskell-checkers.el" "haskell-indentation.el" "haskell-session.el" "haskell-unicode-input-method.elc" "haskell-align-imports.el" "haskell-debug.el" "haskell-customize.elc" "haskell-process.elc" "inf-haskell.elc")
+
+ ("/home/teodoro/.emacs.d/ecb/" (21917 56084 733527 873000) "ecb-face.el" "ecb-analyse.el" "ecb-tod.el" "ecb-eshell.el" "ecb-file-browser.el" "ecb.el" "ecb-mode-line.el" "NEWS" "ecb-semantic.el" "ecb-advice-test.el" "ecb-jde.el" "Makefile" "ecb-compilation.el" "TODO" "ecb-common-browser.el" "ecb2/" "make.bat" "html/" "ecb-winman-support.el" "ecb-method-browser.el" "ecb-buffertab.el" "ecb-examples.el" "ecb-compatibility.el" "silentcomp.el" "ecb-help.el" "ecb-util.el" "CYCLE_PROPOSAL" "ecb-multiframe.el" "README" "ecb-layout.el" "ecb-upgrade.el" "ecb.texi" "ecb-makedef.mk" "RELEASE_NOTES" "tree-buffer.el" "ecb-autogen.el" "ecb-speedbar.el" "../" "ecb-layout-defs.el" "ecb-images/" "TODO.org" "Makefile.conf.template" "ecb-create-layout.el" "ecb-navigate.el" "ecb-cedet-wrapper.el" "ecb-cycle.el" ".git/" "./" "ecb-symboldef.el" ".gitignore" "ecb-semantic-wrapper.el")
+
+ ("/home/teodoro/.emacs.d/elpa/flymake-0.4.16/" (21917 54995 106955 717000) "flymake-pkg.el" "flymake-autoloads.el~" "flymake.elc" "flymake-pkg.elc" "flymake-autoloads.el" "../" "./" "flymake.el")
+
+ ("/home/" (21908 46715 228800 548000) "teodoro/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

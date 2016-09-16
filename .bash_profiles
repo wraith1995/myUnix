@@ -1,0 +1,111 @@
+#load files
+if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+	. "$HOME/.bashrc"
+    fi
+fi
+
+
+#Path:
+PATH=$PATH:~/bin
+PATH=$PATH:~/.cabal/bin #because cabal feels special when it comes to arbtt
+PATH=$PATH:~/.local/bin #because stack also feel special
+
+
+#non-path variables
+DUMMY="THIS IS A DUMMY"
+
+
+#history settings
+#from https://www.debian-administration.org/article/543/Bash_eternal_history:
+export HISTTIMEFORMAT="%s "
+PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND ; }"'echo $$ $USER \
+               "$(history 1)" >> ~/.bash_eternal_history'
+
+#eternal history from all terminals: http://unix.stackexchange.com/questions/1288/preserve-bash-history-in-multiple-terminal-windows
+# Avoid duplicates
+export HISTCONTROL=ignoredups:erasedups  
+# When the shell exits, append to the history file instead of overwriting it
+shopt -s histappend
+
+# After each command, append to the history file and reread it
+export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
+export HISTSIZE=100000    
+export HISTFILESIZE=100000
+
+
+#aliases
+alias python=python3
+alias dc='sed -r "s/\x1B\[([0-9]{1,2}(;[0-9]{1,2})?)?[m|K]//g"'
+alias vim='emacs'
+alias ls='ls --color=always'
+alias less='less -r'
+alias tree='tree -C'
+alias grep="grep --color=auto"
+alias mgrep="grep -o"
+alias say="espeak"
+alias mkdir="mkdir -pv"
+alias ..='cd ..'
+alias view='xdg-open .'
+alias getwifi='sudo ifdown wlan0; sudo ifup wlan0'
+alias modelinfo='sudo dmidecode -s system-product-name'
+alias su="sudo -i"
+#alias 'dus=du -sckx * | sort -nr' #directories sorted by size
+alias vim='emacs'
+alias reboot="sudo shutdown -r now"
+alias off="sudo shutdown -h now"
+alias top="htop"
+
+
+#functions:
+
+#extract function:
+#https://www.digitalocean.com/community/tutorials/an-introduction-to-useful-bash-aliases-and-functions
+
+function extract {
+ if [ -z "$1" ]; then
+    # display usage if no parameters given
+    echo "Usage: extract <path/file_name>.<zip|rar|bz2|gz|tar|tbz2|tgz|Z|7z|xz|ex|tar.bz2|tar.gz|tar.xz>"
+ else
+    if [ -f $1 ] ; then
+        # NAME=${1%.*}
+        # mkdir $NAME && cd $NAME
+        case $1 in
+          *.tar.bz2)   tar xvjf ../$1    ;;
+          *.tar.gz)    tar xvzf ../$1    ;;
+          *.tar.xz)    tar xvJf ../$1    ;;
+          *.lzma)      unlzma ../$1      ;;
+          *.bz2)       bunzip2 ../$1     ;;
+          *.rar)       unrar x -ad ../$1 ;;
+          *.gz)        gunzip ../$1      ;;
+          *.tar)       tar xvf ../$1     ;;
+          *.tbz2)      tar xvjf ../$1    ;;
+          *.tgz)       tar xvzf ../$1    ;;
+          *.zip)       unzip ../$1       ;;
+          *.Z)         uncompress ../$1  ;;
+          *.7z)        7z x ../$1        ;;
+          *.xz)        unxz ../$1        ;;
+          *.exe)       cabextract ../$1  ;;
+          *)           echo "extract: '$1' - unknown archive method" ;;
+        esac
+    else
+        echo "$1 - file does not exist"
+    fi
+fi
+}
+#from some qoura post
+function cl(){ cd "$@" && la; } #cd and ls
+function cdn(){ for i in `seq $1`; do cd ..; done;} #cd back n times
+function remindme()
+{
+    sleep $1 && zenity --info --text "$2" &
+}
+function pskill() {
+    ps ax | grep "$1" | grep -v grep | awk '{ print $1 }' | xargs kill
+}
+
+
+#sources:
+#https://www.quora.com/What-are-some-useful-bash_profile-and-bashrc-tips
+#

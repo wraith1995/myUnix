@@ -1,0 +1,42 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/teodoro/" . ".emacs.d/")
+ ("/home/" . "teodoro/")
+ ("/" . "home/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/teodoro/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "test.c"
+ "test.py"
+ ".emacs"
+ "test.tex"
+ "fun.sh"
+ "telegramtex.sh"
+ "test"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/teodoro/" (21917 56708 784581 555000) "Desktop/" ".xsession-errors" "_region_.log" "Videos/" ".bash_logout" ".bash_history" ".dbus/" ".mozilla/" ".Xauthority" "prv_tester.log" "#test.py#" "_region_.tex" "shc-3.8.9/" "test.tex~" "tester.tex" ".sudo_as_admin_successful" ".emacs.d/" ".macromedia/" ".pki/" ".tor/" "prv_test.ini" "tg/" "moon/" ".adobe/" "test.py" "tor-browser_en-US/" "Templates/" "test_flymake.log" "fun.sh.x" ".wine/" "prog" ".telegram-cli/" "math160s.sty" "prv_test.log" ".java/" ".bash_profile" ".dmrc" "test~" ".ecb-tip-of-day.el" ".local/" ".compiz/" ".TelegramDesktop/" "backup.bashrc" "fun.sh.x.c" "VirtualBox VMs/" "test" ".gnupg/" ".cache/" "test.tex" "test.py~" ".bashrc" ".gstreamer-0.10/" ".xsession-errors.old" ".#test.py" ".config/" ".profile" "../" "test_flymake.aux" ".gnome/" "Telegram/" "_region_.prv/" "Pictures/" ".gconf/" "examples.desktop" "./" ".wine-pipelight/" "Public/" "fun.sh" ".emacs~" "fun.sh~" "system-mono/" "Downloads/" "mono/" ".python_history" ".emacs" ".ghc/" "Music/" ".ICEauthority" ".Skype/" "Documents/" "telegramtex.sh")
+
+ ("/home/teodoro/.emacs.d/" (21917 56071 425627 578000) "Pymacs/" "ac-comphist.dat" "deep-thought-theme.el" "elpa/" "ido.last~" "ecb/" "ido.last" "ropemacs/" "auto-complete.el" "docs/" "auto-complete-pkg.el" "ac-dict/" "auto-complete/" "../" "auto-complete-config.el" "auto-save-list/" "./" "autopair.el")
+
+ ("/home/teodoro/.emacs.d/ecb/" (21917 56084 733527 873000) "ecb-face.el" "ecb-analyse.el" "ecb-tod.el" "ecb-eshell.el" "ecb-file-browser.el" "ecb.el" "ecb-mode-line.el" "NEWS" "ecb-semantic.el" "ecb-advice-test.el" "ecb-jde.el" "Makefile" "ecb-compilation.el" "TODO" "ecb-common-browser.el" "ecb2/" "make.bat" "html/" "ecb-winman-support.el" "ecb-method-browser.el" "ecb-buffertab.el" "ecb-examples.el" "ecb-compatibility.el" "silentcomp.el" "ecb-help.el" "ecb-util.el" "CYCLE_PROPOSAL" "ecb-multiframe.el" "README" "ecb-layout.el" "ecb-upgrade.el" "ecb.texi" "ecb-makedef.mk" "RELEASE_NOTES" "tree-buffer.el" "ecb-autogen.el" "ecb-speedbar.el" "../" "ecb-layout-defs.el" "ecb-images/" "TODO.org" "Makefile.conf.template" "ecb-create-layout.el" "ecb-navigate.el" "ecb-cedet-wrapper.el" "ecb-cycle.el" ".git/" "./" "ecb-symboldef.el" ".gitignore" "ecb-semantic-wrapper.el")
+
+ ("/home/teodoro/.emacs.d/elpa/" (21917 54994 902957 565000) "flymake-0.4.16/" "auctex-11.88.6.signed" "emacs-xkcd-1.0/" "fill-column-indicator-readme.txt" "auto-complete-20150618.1949/" "autopair-20140825.427/" "undo-tree-0.6.5/" "undo-tree-0.6.5.signed" "ecb-2.40/" "ess-20150622.413/" "archives/" "../" "fill-column-indicator-20140509.1101/" "gnupg/" "./" "auctex-11.88.6/" "popup-20150626.711/" "fcitx-readme.txt" "undo-tree-readme.txt" "flymake-checkers-0.5/")
+
+ ("/home/teodoro/.emacs.d/elpa/flymake-0.4.16/" (21917 54995 106955 717000) "flymake-pkg.el" "flymake-autoloads.el~" "flymake.elc" "flymake-pkg.elc" "flymake-autoloads.el" "../" "./" "flymake.el")
+
+ ("/home/" (21908 46715 228800 548000) "teodoro/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
