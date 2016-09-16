@@ -1,5 +1,0 @@
-dist.torproject.org:HSTS	0	17059	1489745163887,1,0
-www.eff.org:HSTS	0	17059	1505470206189,1,1
-check.torproject.org:HSTS	0	17059	1489701601822,1,0
-www.torproject.org:HSTS	0	17059	1489745161657,1,0
-blocklist.addons.mozilla.org:HSTS	0	17059	1505470322066,1,0
