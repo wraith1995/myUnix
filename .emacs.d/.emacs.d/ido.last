@@ -7,58 +7,78 @@
  ("/home/teodoro/gits/stochasticarchive.net/blog/gwern.net/static/" . "css/")
  ("/home/teodoro/gits/stochasticarchive.net/blog/gwern.net/" . "static/")
  ("/home/teodoro/gits/stochasticarchive.net/blog/" . "gwern.net/")
- ("/home/teodoro/gits/stochasticarchive.net/" . "static/")
- ("/home/teodoro/gits/" . "blog/")
+ ("/home/teodoro/gits/stochasticarchive.net/" . "_site/")
+ ("/home/teodoro/gits/" . "stochasticarchive.net/")
  ("/home/teodoro/teocollin1995@gmail.com/reu2016/" . "paper/")
  ("/home/teodoro/teocollin1995@gmail.com/" . "reu2016/")
  ("/home/teodoro/binfiles/" . "ptp/")
  ("/home/teodoro/projects/phil/" . "src/")
  ("/home/teodoro/projects/guessing_game/" . "src/")
  ("/home/teodoro/projects/" . "phil/")
- ("/home/teodoro/" . "gits/")
+ ("/home/teodoro/" . "bin/")
  ("/home/" . "teodoro/")
  ("/" . "home/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/teodoro/gits/"
+ "/home/teodoro/bin/"
+ "/home/teodoro/gits/stochasticarchive.net/"
+ "/home/teodoro/binfiles/"
  "/home/teodoro/"
+ "/home/teodoro/gits/stochasticarchive.net/_site/"
+ "/home/teodoro/gits/"
  "/home/teodoro/tests/difflab/"
  "/home/teodoro/gits/blog/gwern.net/"
  "/home/teodoro/gits/stochasticarchive.net/static/css/"
  "/home/teodoro/gits/stochasticarchive.net/blog/gwern.net/static/css/"
  "/home/teodoro/gits/stochasticarchive.net/blog/gwern.net/"
- "/home/teodoro/gits/stochasticarchive.net/"
  "/home/teodoro/teocollin1995@gmail.com/reu2016/paper/"
  "/home/teodoro/binfiles/ptp/"
  "/home/teodoro/org/"
  "/home/teodoro/pcl/"
  "/home/teodoro/binfiles/commenter/"
- "/home/teodoro/binfiles/"
  "/home/teodoro/projects/phil/src/"
  "/home/teodoro/projects/guessing_game/src/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "startupscript"
+ "site.hs"
+ "whoami.markdown"
+ "startupscript.sh"
+ ".gtk-bookmarks"
+ "whoami.html"
+ "actual.cabal"
+ "stack.yaml"
  "note"
- ".emacs"
- "b"
- "a"
- ".bash_profile"
- ".bashrc"
  ".profile"
- "Archiving URLs.page"
- "default.css"
- "Statistical notes.page"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/teodoro/gits/" (22492 3384 444867 146000) "wpschain/" "KinkList/" "stats101/" "imgcurl/" "../" "FBEraser/" "RMT_Spring_2016/" "gstatic/" "cig/" "bitlbee-facebook/" "rembot/" "appengine-flask-skeleton/" "nethogs/" "note" "Green/" "mgg/" "urbit/" "functionalfinalproject/" "flask-appengine-template/" "warcimg/" "bitlbee-3.4.2.tar.gz" "complex/" "rudinRebuilt/" "persistentHomology/" "z3squared/" "blog/" "redditexp/" "bitlbee-3.4.2/" "devblogs/" "google_appengine/" "fb-post-bulk-privacy-edit/" "tghist/" "Apartment14W/" "commenter/" "PyBot/" "cmd_girls_und_panzer/" "stochasticarchive.net/" "ppdata/" "lainGame/" "tgs/" "gwern.net/" "json-glib/" "texts/" "./")
+ ("/home/teodoro/bin/" (22494 64484 88278 807000) "shuf" "tor-browser_en-US/" "../" "allsystemsgo" "try" "faninfo" "tavern.rb" "wepwifi" "stardate" "startupscript" "ssid" "condmsg" "lip" "Telegram/" "./" "iip")
 
- ("/home/teodoro/" (22492 3379 308958 23000) "pia.sh" "Public/" "bin/" "crypt/" ".ghc/" ".bash_history" "teocollin1995@gmail.com/" ".pki/" ".emacs~" ".pia_manager/" ".gnome/" ".indicator-sysmonitor.json" ".Mathematica/" ".TelegramDesktop/" "tg/" "../" ".bash_logout" ".local/" "The Crap Folder/" ".python_history" ".profile" "snoopy-install.sh" ".xsession-errors.old" ".dbus/" ".com.privateinternetaccess.vpn/" "Dump/" ".gconf/" "Desktop/" ".Xauthority" ".Wolfram/" ".backup/" ".mozilla/" "Pictures/" "Documents/" "tests/" ".adobe/" ".bashrc" ".bash_profile" ".emacs" "Videos/" "Music/" ".dmrc" ".macromedia/" ".ICEauthority" ".key/" ".gstreamer-0.10/" "Templates/" "Downloads/" ".emacs.d/" "gits/" ".gnupg/" ".bash_eternal_history" ".config/" "binfiles/" ".xsession-errors" ".wget-hsts" ".cache/" ".sudo_as_admin_successful" ".gtk-bookmarks" ".opera/" "./" ".pia_manager_crash.log" ".stack/")
+ ("/home/teodoro/" (22495 1911 51342 369000) "pia.sh" "Public/" "bin/" "crypt/" ".ghc/" ".bash_history" "teocollin1995@gmail.com/" ".pki/" ".emacs~" ".pia_manager/" ".gnome/" ".indicator-sysmonitor.json" ".Mathematica/" ".TelegramDesktop/" "tg/" "../" ".bash_logout" ".gnome2/" ".gphoto/" ".local/" "The Crap Folder/" ".python_history" ".profile" ".xsession-errors.old" ".dbus/" ".com.privateinternetaccess.vpn/" "note" ".gnome2_private/" "Dump/" ".gconf/" "Desktop/" ".Xauthority" ".Wolfram/" ".backup/" ".mozilla/" "Pictures/" "Documents/" "tests/" "nohup.out" ".adobe/" ".bashrc" ".bash_profile" ".emacs" "Videos/" "Music/" ".dmrc" ".macromedia/" ".ICEauthority" ".key/" ".gstreamer-0.10/" "Templates/" "Downloads/" ".emacs.d/" "gits/" ".gnupg/" ".bash_eternal_history" ".config/" "binfiles/" ".xsession-errors" ".wget-hsts" ".cache/" ".sudo_as_admin_successful" ".gtk-bookmarks" ".opera/" "./" ".gitconfig" ".pia_manager_crash.log" ".stack/")
+
+ ("/home/teodoro/gits/stochasticarchive.net/" (22495 11028 618090 487000) "actual.cabal" "documentation.markdown" "site.hs" "../" "org/" "_cache/" "resource/" ".gitignore" "index.markdown" "stack.yaml" "_site/" "whoami.markdown" ".git/" "blog/" "firstarticle.org" "static/" ".stack-work/" "README.md" "./")
+
+ ("/home/teodoro/binfiles/" (22492 7807 686687 951000) "boing.py" "telegram_histories.sh" "../" "ip.sh" "togit.sh" "linkedfiles.py" "ssid.sh" "installscripts.sh" "allsystemsgo.sh" "unboing.py" "waittest.sh" "killnetworkmanager.sh" "lip.sh" "tavern.rb" "startupscript.sh" "faninfo.sh" "linkfile.sh" "wepwifi.sh" "condmsg.sh" "vig.hs" "shuf.hs" "telegramtex.sh" "./" "try.sh" "ptp/")
+
+ ("/etc/" (22492 5395 855503 767000) "environment" "magic.mime" "rcS.d/" "rc4.d/" "fstab" "insserv.conf" "sane.d/" "init/" "papersize" "updatedb.conf" "passwd" "mtools.conf" "iproute2/" "newt/" "appstream.conf" "host.conf" "inputrc" "chkrootkit.conf" "pm/" "gshadow" "rc1.d/" "bash_completion.d/" "signond.conf" "update-manager/" "ssl/" "protocols" "rc5.d/" "bluetooth/" "libpaper.d/" "shells" "calendar/" "ufw/" "signon-ui/" "dconf/" "wildmidi/" "debconf.conf" "services" "gss/" "emacs/" "ca-certificates/" "apg.conf" "snoopy.ini" "X11/" "gtk-3.0/" "aliases.db" "kbd/" "cron.hourly/" "fonts/" "tex4ht/" "gconf/" "libaudit.conf" "localtime" "shadow-" "sbcl.rc" "upstart-xsessions" "sysctl.d/" "sudoers.d/" "sgml/" "apparmor.d/" "ld.so.preload" "networks" "shadow" "macfanctl.conf.bk" "ldap/" "rc0.d/" "bash.bashrc" "apport/" "speech-dispatcher/" "gai.conf" "machine-id" "default/" "ocamlfind.conf" "gnome-app-install/" "udisks2/" "openal/" "issue.net" "update-notifier/" "ltrace.conf" "drirc" "ca-certificates.conf" "systemd/" "python3/" "libao.conf" "profile.d/" "python3.5/" "xml/" "thunderbird/" "apt/" "rpc" "wgetrc" "gtk-2.0/" "emacs24/" "os-release" "compizconfig/" "insserv.conf.d/" "terminfo/" "cracklib/" "pam.d/" "gshadow-" "pulse/" "tor/" "resolv.conf" "apm/" "rsyslog.conf" "dkms/" "screenrc" "subuid-" "ld.so.conf" "mailcap" "rkhunter.conf" "pcmcia/" "ifplugd/" "opt/" "vdpau_wrapper.cfg" "python/" "depmod.d/" "vtrgb" "modules" "console-setup/" "macfanctl.conf" "logrotate.d/" "ucf.conf" "legal" "perl/" "sensors.d/" "libnl-3/" "hostname" "NetworkManager/" "bindresvport.blacklist" "iftab" "brltty.conf" "grub.d/" "fwupd.conf" "lsb-release" "magic" "zsh_command_not_found" "anacrontab" "bash_completion" "apache2/" "at-spi2/" "logcheck/" "modules-load.d/" "pki/" "manpath.config" "usb_modeswitch.d/" "network/" "udev/" "subgid" "ld.so.conf.d/" "subuid" "LatexMk" "python2.7/" "gdb/" ".pwd.lock" "ImageMagick-6/" "dictionaries-common/" "postfix/" "mailcap.order" "crontab" "mono/" "sensors3.conf" "mke2fs.conf" "sysctl.conf.insyncbak" "group-" "kernel-img.conf" "lightdm/" "cupshelpers/" "chatscripts/" "thermald/" "xdg/" "pam.conf" "dbus-1/" "profile" "rc2.d/" "cron.monthly/" "modprobe.d/" "rsyslog.d/" "dpkg/" "group" "binfmt.d/" "login.defs" "groff/" "firefox/" "dnsmasq.d/" "cron.weekly/" "resolvconf/" "chktexrc" "fuse.conf" "insserv/" "selinux/" "adduser.conf" "libreoffice/" "usb_modeswitch.conf" "issue" "wpa_supplicant/" "tmpfiles.d/" "hosts.allow" "popularity-contest.conf" "mail.rc" "mtab" "cron.daily/" "hdparm.conf" "deluser.conf" "cron.d/" "initramfs-tools/" "security/" "ghostscript/" "alternatives/" "sudoers" "sysctl.conf" "hosts" "ld.so.cache" "rc6.d/" "UPower/" "acpi/" "pnm2ppa.conf" "ppp/" "brltty/" "dhcp/" "hp/" "lighttpd/" "guest-session/" "prelink.conf.d/" "apparmor/" "doc-base/" "locale.alias" "rc.local" "kernel/" "securetty" "timidity/" "nsswitch.conf" "kerneloops.conf" "hosts.deny" "timezone" "mime.types" "avahi/" "chromium-browser/" "R/" "geoclue/" "init.d/" "vim/" "lintianrc" "aptdaemon/" "nanorc" "ssh/" "aliases" "polkit-1/" "rmt" "texmf/" "skel/" "debian_version" "logrotate.conf" "passwd-" "gnome/" "update-motd.d/" "brlapi.key" "locale.gen" "rc3.d/" "subgid-" "cups/" "../" "./")
+
+ ("/etc/systemd/" (22414 37085 0 0) "../" "bootchart.conf" "logind.conf" "network/" "user.conf" "user/" "journald.conf" "system.conf" "resolved.conf" "timesyncd.conf" "system/" "./")
+
+ ("/etc/systemd/system/" (22493 26837 513057 192000) "hibernate.target.wants/" "timers.target.wants/" "../" "shutdown.target.wants/" "default.target.wants/" "display-manager.service" "network-online.target.wants/" "dbus-org.freedesktop.nm-dispatcher.service" "dbus-org.bluez.service" "display-manager.service.wants/" "sockets.target.wants/" "hybrid-sleep.target.wants/" "printer.target.wants/" ".#macfanctld.service" "dbus-org.freedesktop.Avahi.service" "bluetooth.target.wants/" "paths.target.wants/" "dbus-org.freedesktop.ModemManager1.service" "getty.target.wants/" "sysinit.target.wants/" "multi-user.target.wants/" "syslog.service" "graphical.target.wants/" "./" "suspend.target.wants/" "macfanctld.service" "dbus-org.freedesktop.thermald.service")
+
+ ("/home/teodoro/gits/stochasticarchive.net/_site/" (22492 11782 987443 871000) "index.html" "../" "documentation.html" "blog/" "static/" "whoami.html" "tags/" "./")
+
+ ("/home/teodoro/binfiles/ptp/" (22492 1806 539853 75000) "r_packages" "p3" "progressbar.sh" "copy" "../" "r_add_packages.sh" "quicklisp_get_packages.sh" "apt-repo" "p2" "note" "pip_add_packages.sh" ".transfer_scripts" "apt-get-repos.sh" ".list_of_package_scripts" "apt-add-packages.sh" "pip_get_packages.sh" "start" "end" "apt-packages" "julia_add_packages.sh" ".list_of_config_dirs" ".list_of_config_files" "apt-add-repos.sh" "quicklisp.sh" "apt-get-packages.sh" "juliapackages" "julia_get_packages.sh" "./" "backup-pe.sh" "r_get_packages.sh")
+
+ ("/home/" (22490 19885 256034 238000) "../" "teodoro/" "./")
+
+ ("/home/teodoro/gits/" (22492 3506 79594 44000) "wpschain/" "KinkList/" "stats101/" "imgcurl/" "../" "FBEraser/" "RMT_Spring_2016/" "gstatic/" "cig/" "bitlbee-facebook/" "rembot/" "appengine-flask-skeleton/" "nethogs/" "note" "Green/" "mgg/" "urbit/" "functionalfinalproject/" "flask-appengine-template/" "warcimg/" "bitlbee-3.4.2.tar.gz" "complex/" "rudinRebuilt/" "persistentHomology/" "z3squared/" "blog/" "redditexp/" "myUnix/" "bitlbee-3.4.2/" "devblogs/" "google_appengine/" "fb-post-bulk-privacy-edit/" "tghist/" "Apartment14W/" "commenter/" "PyBot/" "cmd_girls_und_panzer/" "stochasticarchive.net/" "ppdata/" "lainGame/" "tgs/" "gwern.net/" "json-glib/" "texts/" "./")
 
  ("/home/teodoro/tests/" (22492 2017 309187 978000) "../" "difflab/" "./")
 
@@ -72,8 +92,6 @@
 
  ("/home/teodoro/gits/stochasticarchive.net/static/" (22471 45344 119643 0) "css/" "templates/" "../" "./")
 
- ("/home/teodoro/gits/stochasticarchive.net/" (22491 45301 842270 871000) "actual.cabal" "documentation.markdown" "site.hs" "../" "org/" "_cache/" "resource/" ".gitignore" "index.markdown" "stack.yaml" "_site/" "whoami.markdown" ".git/" "blog/" "firstarticle.org" "static/" ".stack-work/" "README.md" "./")
-
  ("/home/teodoro/gits/stochasticarchive.net/blog/gwern.net/static/css/" (22471 45380 891641 0) "../" "default.css" "./")
 
  ("/home/teodoro/gits/stochasticarchive.net/blog/gwern.net/static/" (22471 45380 915641 0) "css/" "templates/" "../" "plugins/" "robots.txt" "img/" "404.html" "js/" "./")
@@ -84,11 +102,7 @@
 
  ("/home/teodoro/gits/gwern.net/" (22394 5646 304471 0) "Suzanne Delage.page" "Yawgoog injustice.page" "In Defense Of Inclusionism.page" "markdown-lint.sh" "Feed.hs" "Mead.page" "HN.page" "Hyperbolic Time Chamber.page" "Embryo editing.page" "otaku.page" "Mistakes.page" "Zeo.page" "presocratic-path-to-atomism.page" "Evolutionary Licenses.page" "Melatonin.page" "catnip.page" "Cryonics.page" "Wooden pillows.page" "education-is-not-about-learning.page" "Lifelogging.page" "Ontological pantheism.page" "komm-susser-tod.page" "Timestamping.page" "Nootropics.page" "Blackmail.page" "Music distraction.page" "2011 San Francisco.page" "Resorter.page" "fog-gun.page" "Drug heuristics.page" "Touhou.page" "Lunar sleep.page" "Charity is not about helping.page" "Barratry.page" "ICON 2011.page" "Iodine.page" "backfire-effect.page" "Bitcoin is Worse is Better.page" "Death Note script.page" "Anime criticism is not about quality.page" "The Narrowing Circle.page" "plastination.page" "wittgenstein-thesis.page" "Google shutdowns.page" "Spaced repetition.page" "Console Insurance.page" "Simulation inferences.page" "haskell/" "Prediction markets.page" "Mail delivery.page" "mugging.page" "Wikipedia and YouTube.page" "Zen and the Art of Bicycle Maintenance.page" "The Existential Risk of Mathematical Error.page" "Turing-complete.page" "TODO.page" "Candy Japan.page" "Sand.page" "The Melancholy of Kyon.page" "the-long-stagnation.page" "Longevity.page" "on-really-trying.page" "Book reviews.page" "AB testing.page" "Isomorphisms.page" "Ethical sperm donation.page" "Death Note Anonymity.page" "TPB Bitcoin.page" "Melon.page" "otaku-essay.page" "The Melancholy of Subculture Society.page" "Immoral Books.page" "Against The Miletians.page" "Culture is not about Esthetics.page" "hpmor-predictions.page" "intermittent-fasting.page" "An Abortion Dialogue.page" "Wikipedia and Knol.page" "Causality.page" "Bicycles and Rationality.page" "Changelog.page" "docs/" "Sunk cost.page" "On Stress.page" ".git/" "Black-market arrests.page" "Choosing Software.page" "Self-decrypting files.page" "hafu.page" "Tea.page" "Life contract.page" "Modafinil.page" "Resilient Haskell Software.page" "DNB FAQ.page" "Terrorism is not about Terror.page" "Greenland.page" "dune.page" "DNB meta-analysis.page" "Copyright.page" "Conscientiousness and online education.page" "Google Alerts.page" "index.page" "Terrorism is not Effective.page" "Colder Wars.page" "Aria's past, present, and future.page" "Modafinil survey.page" "Black-market archives.page" "newsletter/" "Links.page" "Silk Road.page" "Complexity vs AI.page" "Slowing Moore's Law.page" "Treadmill.page" "Wikipedia and Other Wikis.page" "static/" "ICON 2012.page" "Death Note Ending.page" "On Disrespect.page" "The 3 Grenades.page" "Weather.page" "LSD microdosing.page" "sources-of-religious-experience.page" "2012 election predictions.page" "Lewis meditation.page" "Wikipedia and Dark Side Editing.page" "images/" "sicp/" "Creatine.page" "fiction/" "Nicotine.page" "EA donations.page" "23andMe.page" "Wikipedia resume.page" "soylent.page" "hpmor.page" "Justifications.page" "indian-logic.page" "Correlation.page" "Girl Scouts and good governance.page" "2005 Europe trip.page" "Archiving URLs.page" "Haskell Summer of Code.page" "About.page" "hakyll.hs" "iq.page" "Anchoring.page" "Black-market survival.page" "Statistical notes.page" "otaku-predictions.page" "ICON 2010.page" "FMP parody.page" "2014 spirulina.page" "Notes.page" "LLLT.page" "Embryo selection.page" "2006 Cornell TKD.page" "../" "./")
 
- ("/home/teodoro/binfiles/" (22487 8161 684110 0) "boing.py" "scripts/" "telegram_histories.sh" "../" "ip.sh" "fun.sh" "AAA.sh" "ssid.sh" "unboing.py" "catdir.sh" "a" "waittest.sh" "#try.sh#" "elm-package.json" "killnetworkmanager.sh" "#catdir.sh#" "test" "mathhwmk.sh" "lip.sh" "tavern.rb" "elm-stuff/" "stero/" "linkfile.sh" "faust.sh" "65b8f43197690a01a8bb/" "tghist/" "commenter/" "condmsg.sh" "stardate/" "vig.hs" "shuf.hs" "ssid" ".#catdir.sh" "telegramtex.sh" "repl-temp-000.elm" "./" "try.sh" "tg_histories.sh" "ptp/")
-
  ("/home/teodoro/binfiles/commenter/" (22016 17537 284296 0) "commener.lisp" "../" "comments.py" "comments" "./")
-
- ("/home/teodoro/binfiles/ptp/" (21998 56220 581750 0) "r_packages" "p3" "progressbar.sh" "copy" "../" "r_add_packages.sh" "quicklisp_get_packages.sh" "apt-repo" "p2" "pip_add_packages.sh" ".transfer_scripts" "apt-get-repos.sh" ".list_of_package_scripts" "apt-add-packages.sh" "pip_get_packages.sh" "start" "end" "apt-packages" "julia_add_packages.sh" ".list_of_config_dirs" ".list_of_config_files" "apt-add-repos.sh" "quicklisp.sh" "apt-get-packages.sh" "juliapackages" "julia_get_packages.sh" "./" "backup-pe.sh" "r_get_packages.sh")
 
  ("/home/teodoro/teocollin1995@gmail.com/reu2016/paper/" (22491 3155 500766 909000) "../" "collin.tex" "paper.tex.bk.2" "feedbackmay" "collin.aux" "collin.log" "_region_.tex" "_region_.log" "paper.log" "paper.toc" "prv_collin.log" "collin.toc" "paper.tex.bk" "auto/" "notes.org" "collinRoughDraft.pdf" "paper.pdf" "paper.tex" "_region_.prv/" "./" "paper.aux" "thingstodo" "collin.pdf")
 
@@ -129,8 +143,6 @@
  ("/home/teodoro/.emacs.d/ecb/" (21917 56084 733527 873000) "ecb-face.el" "ecb-analyse.el" "ecb-tod.el" "ecb-eshell.el" "ecb-file-browser.el" "ecb.el" "ecb-mode-line.el" "NEWS" "ecb-semantic.el" "ecb-advice-test.el" "ecb-jde.el" "Makefile" "ecb-compilation.el" "TODO" "ecb-common-browser.el" "ecb2/" "make.bat" "html/" "ecb-winman-support.el" "ecb-method-browser.el" "ecb-buffertab.el" "ecb-examples.el" "ecb-compatibility.el" "silentcomp.el" "ecb-help.el" "ecb-util.el" "CYCLE_PROPOSAL" "ecb-multiframe.el" "README" "ecb-layout.el" "ecb-upgrade.el" "ecb.texi" "ecb-makedef.mk" "RELEASE_NOTES" "tree-buffer.el" "ecb-autogen.el" "ecb-speedbar.el" "../" "ecb-layout-defs.el" "ecb-images/" "TODO.org" "Makefile.conf.template" "ecb-create-layout.el" "ecb-navigate.el" "ecb-cedet-wrapper.el" "ecb-cycle.el" ".git/" "./" "ecb-symboldef.el" ".gitignore" "ecb-semantic-wrapper.el")
 
  ("/home/teodoro/.emacs.d/elpa/flymake-0.4.16/" (21917 54995 106955 717000) "flymake-pkg.el" "flymake-autoloads.el~" "flymake.elc" "flymake-pkg.elc" "flymake-autoloads.el" "../" "./" "flymake.el")
-
- ("/home/" (21908 46715 228800 548000) "teodoro/" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

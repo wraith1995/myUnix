@@ -56,6 +56,7 @@ alias vim='emacs'
 alias reboot="sudo shutdown -r now"
 alias off="sudo shutdown -h now"
 alias top="htop"
+alias nmrestart='sudo /etc/init.d/network-manager restart'
 
 
 #functions:

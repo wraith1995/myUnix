@@ -1,0 +1,38 @@
+ppa:hansjorg/rust
+ppa:noobslab/apps
+ppa:pipelight/stable
+ppa:staticfloat/juliareleases
+ppa:thefanclub/grive-tools
+ppa:ehoover/compholio
+ppa:relan/exfat
+ppa:happy-neko/ps3mediaserver
+ppa:mqchael/pipelight
+ppa:cmrx64/cargo
+ppa:qucs/qucs
+'http://deb.opera.com/opera-stable/ stable non-free '
+ppa:hansjorg/rust
+ppa:noobslab/apps
+ppa:pipelight/stable
+ppa:staticfloat/juliareleases
+ppa:thomas.tsai/ubuntu-tuxboot
+'http://download.fpcomplete.com/ubuntu/vivid stable main'
+ppa:thefanclub/grive-tools
+'http://dl.google.com/linux/chrome/deb/ stable main'
+ppa:ehoover/compholio
+'http://apt.insynchq.com/ubuntu vivid non-free contrib'
+ppa:relan/exfat
+ppa:happy-neko/ps3mediaserver
+ppa:mqchael/pipelight
+ppa:cmrx64/cargo
+ppa:qucs/qucs
+'http://us.archive.ubuntu.com/ubuntu/ vivid main restricted'
+'http://us.archive.ubuntu.com/ubuntu/ vivid-updates main restricted'
+'http://us.archive.ubuntu.com/ubuntu/ vivid universe'
+'http://us.archive.ubuntu.com/ubuntu/ vivid-updates universe'
+'http://us.archive.ubuntu.com/ubuntu/ vivid multiverse'
+'http://us.archive.ubuntu.com/ubuntu/ vivid-updates multiverse'
+'http://us.archive.ubuntu.com/ubuntu/ vivid-backports main restricted universe multiverse'
+'http://security.ubuntu.com/ubuntu vivid-security main restricted'
+'http://security.ubuntu.com/ubuntu vivid-security universe'
+'http://security.ubuntu.com/ubuntu vivid-security multiverse'
+'http://deb.torproject.org/torproject.org wheezy main'

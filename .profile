@@ -22,5 +22,5 @@ fi
 PATH=$PATH:~/bin
 PATH=$PATH:~/.cabal/bin #because cabal feels special when it comes to arbtt
 PATH=$PATH:~/Downloads/google_appengine
-PATH=$PATH:/home/teodoro/.local/bin #because stack also feel special
+PATH=$PATH:~/.local/bin #because stack also feel special
 DUMMYPROFILE="THIS IS A DUMMY"
