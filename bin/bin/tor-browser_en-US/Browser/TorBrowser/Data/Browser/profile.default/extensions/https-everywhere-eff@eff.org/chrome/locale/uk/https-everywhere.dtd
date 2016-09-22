@@ -20,7 +20,7 @@
 <!ENTITY https-everywhere.menu.observatory "Налаштування SSL Observatory">
 <!ENTITY https-everywhere.menu.globalEnable "Увімкнути HTTPS Everywhere">
 <!ENTITY https-everywhere.menu.globalDisable "Вимкнути HTTPS Everywhere">
-<!ENTITY https-everywhere.menu.blockUnencryptedRequests "Block all unencrypted requests">
+<!ENTITY https-everywhere.menu.blockUnencryptedRequests "Блокувати всі незашифровані запити">
 <!ENTITY https-everywhere.menu.showCounter "Показати Лічильник">
 <!ENTITY https-everywhere.menu.viewAllRules "Переглянути всі правила">
 

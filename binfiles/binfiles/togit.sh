@@ -13,8 +13,9 @@ sudo cp .emacs $1/.emacs
 sudo cp -R .emacs.d $1/.emacs.d
 
 cd $1
-rm -rf ~/bin/Telegram
-rm -rf ~/bin/tor-browser_en-US/
+sudo rm -rf $1/bin/Telegram
+sudo rm -rf $1/tor-browser_en-US/
+sudo rm -rf $1/bin/bin
 git add -A
 temp=`date`
 git commit -m "script save ""$temp"

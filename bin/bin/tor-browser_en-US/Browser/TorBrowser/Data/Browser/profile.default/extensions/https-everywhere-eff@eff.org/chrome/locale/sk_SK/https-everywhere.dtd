@@ -5,7 +5,7 @@
 <!ENTITY https-everywhere.about.created_by "Vytvorili">
 <!ENTITY https-everywhere.about.and ", a">
 <!ENTITY https-everywhere.about.librarians "Tvorcovia sád pravidiel">
-<!ENTITY https-everywhere.about.add_new_rule "Pridaj nové pravidlo">
+<!ENTITY https-everywhere.about.add_new_rule "Pridať nové pravidlo">
 <!ENTITY https-everywhere.about.thanks "Poďakovanie">
 <!ENTITY https-everywhere.about.many_contributors "Veľa, veľa prispievateľov, vrátane">
 <!ENTITY https-everywhere.about.noscript "Taktiež, časti HTTPS Everywhere sú založené na kóde z NoScript od Giorgia Maoneho a ďalších. Sme vďační za ich excelentnú prácu!">
@@ -13,7 +13,7 @@
 <!ENTITY https-everywhere.about.donate_tor "Dar pre Tor">
 <!ENTITY https-everywhere.about.tor_lang_code "sk">
 <!ENTITY https-everywhere.about.or "alebo">
-<!ENTITY https-everywhere.about.donate_eff "Dar pre EEF">
+<!ENTITY https-everywhere.about.donate_eff "Dar pre EFF">
 
 <!ENTITY https-everywhere.menu.donate_eff_imperative "Darujte EFF">
 <!ENTITY https-everywhere.menu.about "O HTTPS Everywhere">

@@ -1,60 +1,43 @@
-# Tor state file last generated on 2016-09-16 04:49:18 local time
+# Tor state file last generated on 2016-09-21 21:42:40 local time
 # Other times below are in UTC
 # You *do not* need to edit this file.
 
-EntryGuard GermanCraft2 B567E8E39641F61091C1F2CAAAF73D3D1BF9CFE1 DirCache
-EntryGuardAddedBy B567E8E39641F61091C1F2CAAAF73D3D1BF9CFE1 0.2.8.6 2016-09-06 08:06:48
-EntryGuardPathBias 61.000000 59.000000 59.000000 0.000000 0.000000 4.000000
-EntryGuardPathUseBias 11.000000 11.000000
-EntryGuard LetsHelpSomePPL DC8D552EBF7692AFDD6F62E31E7FD22AFE1D32B4 DirCache
-EntryGuardAddedBy DC8D552EBF7692AFDD6F62E31E7FD22AFE1D32B4 0.2.8.6 2016-08-16 13:09:54
-EntryGuard nova FD2F9B881AC640100C428DF47DC9A863DC2F2536 DirCache
-EntryGuardAddedBy FD2F9B881AC640100C428DF47DC9A863DC2F2536 0.2.8.6 2016-08-18 02:46:41
-EntryGuardPathBias 46.000000 46.000000 46.000000 0.000000 0.000000 0.000000
-TorVersion Tor 0.2.8.6 (git-4d217548e3f05569)
-LastWritten 2016-09-16 08:49:18
-TotalBuildTimes 105
-CircuitBuildTimeBin 325 2
-CircuitBuildTimeBin 375 16
-CircuitBuildTimeBin 425 13
-CircuitBuildTimeBin 475 12
-CircuitBuildTimeBin 525 5
-CircuitBuildTimeBin 575 7
-CircuitBuildTimeBin 625 3
-CircuitBuildTimeBin 675 1
-CircuitBuildTimeBin 725 5
-CircuitBuildTimeBin 825 5
-CircuitBuildTimeBin 975 1
+EntryGuard niftyvolcanorabbit C08DE49658E5B3CFC6F2A952B453C4B608C9A16A DirCache
+EntryGuardAddedBy C08DE49658E5B3CFC6F2A952B453C4B608C9A16A 0.2.8.7 2016-09-09 06:26:29
+EntryGuardPathBias 139.000000 137.000000 131.000000 5.000000 1.000000 2.000000
+EntryGuardPathUseBias 18.000000 17.000000
+EntryGuard kitten2 2EBD117806EE43C3CC885A8F1E4DC60F207E7D3E DirCache
+EntryGuardAddedBy 2EBD117806EE43C3CC885A8F1E4DC60F207E7D3E 0.2.8.7 2016-09-07 12:54:26
+EntryGuardPathBias 2.000000 2.000000 2.000000 0.000000 0.000000 0.000000
+EntryGuard epow0tornode 35E8B344F661F4F2E68B17648F35798B44672D7E DirCache
+EntryGuardAddedBy 35E8B344F661F4F2E68B17648F35798B44672D7E 0.2.8.7 2016-09-01 09:58:40
+TorVersion Tor 0.2.8.7 (git-263088633a63982a)
+LastWritten 2016-09-22 01:42:40
+TotalBuildTimes 140
+CircuitBuildAbandonedCount 1
+CircuitBuildTimeBin 275 10
+CircuitBuildTimeBin 325 32
+CircuitBuildTimeBin 375 28
+CircuitBuildTimeBin 425 16
+CircuitBuildTimeBin 475 5
+CircuitBuildTimeBin 525 4
+CircuitBuildTimeBin 575 8
+CircuitBuildTimeBin 625 5
+CircuitBuildTimeBin 725 2
+CircuitBuildTimeBin 775 5
+CircuitBuildTimeBin 825 6
+CircuitBuildTimeBin 875 1
+CircuitBuildTimeBin 975 2
+CircuitBuildTimeBin 1025 2
+CircuitBuildTimeBin 1075 1
+CircuitBuildTimeBin 1275 1
 CircuitBuildTimeBin 1375 2
 CircuitBuildTimeBin 1475 1
 CircuitBuildTimeBin 1675 1
 CircuitBuildTimeBin 1725 1
-CircuitBuildTimeBin 1925 1
-CircuitBuildTimeBin 2025 1
-CircuitBuildTimeBin 2275 1
-CircuitBuildTimeBin 2375 1
-CircuitBuildTimeBin 2525 1
-CircuitBuildTimeBin 2775 2
-CircuitBuildTimeBin 3025 1
-CircuitBuildTimeBin 3225 1
-CircuitBuildTimeBin 3425 1
-CircuitBuildTimeBin 3475 1
-CircuitBuildTimeBin 3575 1
+CircuitBuildTimeBin 1775 1
+CircuitBuildTimeBin 1825 1
 CircuitBuildTimeBin 3675 1
-CircuitBuildTimeBin 4125 1
-CircuitBuildTimeBin 4525 1
-CircuitBuildTimeBin 4575 1
-CircuitBuildTimeBin 4625 1
-CircuitBuildTimeBin 6275 1
-CircuitBuildTimeBin 6425 1
-CircuitBuildTimeBin 6675 1
-CircuitBuildTimeBin 6775 1
-CircuitBuildTimeBin 6925 1
-CircuitBuildTimeBin 7375 1
-CircuitBuildTimeBin 8725 1
-CircuitBuildTimeBin 8875 1
-CircuitBuildTimeBin 9825 1
-CircuitBuildTimeBin 19725 1
-CircuitBuildTimeBin 21075 1
-CircuitBuildTimeBin 25225 1
-CircuitBuildTimeBin 27075 1
+CircuitBuildTimeBin 7525 1
+CircuitBuildTimeBin 14925 1
+CircuitBuildTimeBin 20275 1

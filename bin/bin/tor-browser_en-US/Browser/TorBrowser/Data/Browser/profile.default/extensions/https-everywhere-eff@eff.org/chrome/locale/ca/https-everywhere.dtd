@@ -20,7 +20,7 @@
 <!ENTITY https-everywhere.menu.observatory "Preferències de SSL Observatory">
 <!ENTITY https-everywhere.menu.globalEnable "Activa HTTPS Everywhere">
 <!ENTITY https-everywhere.menu.globalDisable "Desactiva HTTPS Everywhere">
-<!ENTITY https-everywhere.menu.blockUnencryptedRequests "Block all unencrypted requests">
+<!ENTITY https-everywhere.menu.blockUnencryptedRequests "Bloca totes les peticions sense xifrar">
 <!ENTITY https-everywhere.menu.showCounter "Mostra el comptador">
 <!ENTITY https-everywhere.menu.viewAllRules "Ensenya totes les regles">
 

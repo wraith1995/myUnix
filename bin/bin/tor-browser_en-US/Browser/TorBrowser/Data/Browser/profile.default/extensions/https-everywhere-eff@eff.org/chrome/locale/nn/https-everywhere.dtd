@@ -10,17 +10,17 @@
 <!ENTITY https-everywhere.about.many_contributors "Mange mange bidragsytarar, medrekna">
 <!ENTITY https-everywhere.about.noscript "Dessutan er delar av HTTPS Everywhere basert på kode frå NoScript av Giorgio Maone og andre. Me er takksame for det framifrå arbeidet deira!">
 <!ENTITY https-everywhere.about.contribute  "Om du likar HTTPS Everywhere, kunne du kanskje vurdere å ">
-<!ENTITY https-everywhere.about.donate_tor "Donere til Tor">
+<!ENTITY https-everywhere.about.donate_tor "Donera åt Tor">
 <!ENTITY https-everywhere.about.tor_lang_code "en">
 <!ENTITY https-everywhere.about.or "eller">
-<!ENTITY https-everywhere.about.donate_eff "Donerer til EFF">
+<!ENTITY https-everywhere.about.donate_eff "Donera åt EFF">
 
 <!ENTITY https-everywhere.menu.donate_eff_imperative "Doner til EFF">
 <!ENTITY https-everywhere.menu.about "Om HTTPS Everywhere">
 <!ENTITY https-everywhere.menu.observatory "SSL Observatory Innstillingar">
 <!ENTITY https-everywhere.menu.globalEnable "Slå på HTTPS Everywhere">
 <!ENTITY https-everywhere.menu.globalDisable "Slå av HTTPS Everywhere">
-<!ENTITY https-everywhere.menu.blockUnencryptedRequests "Block all unencrypted requests">
+<!ENTITY https-everywhere.menu.blockUnencryptedRequests "Blokker alle ukrypterde fyrespurnader">
 <!ENTITY https-everywhere.menu.showCounter "Vis teljar">
 <!ENTITY https-everywhere.menu.viewAllRules "Vis alle reglane">
 

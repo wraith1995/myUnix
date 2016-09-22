@@ -20,7 +20,7 @@
 <!ENTITY https-everywhere.menu.observatory "SSL Observatoryn asetukset">
 <!ENTITY https-everywhere.menu.globalEnable "Ota HTTPS Everywhere käyttöön">
 <!ENTITY https-everywhere.menu.globalDisable "Poista HTTPS Everywhere käytöstä">
-<!ENTITY https-everywhere.menu.blockUnencryptedRequests "Block all unencrypted requests">
+<!ENTITY https-everywhere.menu.blockUnencryptedRequests "Estä kaikki salaamatomat pyynnöt">
 <!ENTITY https-everywhere.menu.showCounter "Näytä laskuri">
 <!ENTITY https-everywhere.menu.viewAllRules "Näytä kaikki säännöt">
 

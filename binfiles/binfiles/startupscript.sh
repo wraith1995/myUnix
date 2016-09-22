@@ -1,4 +1,8 @@
 #!/bin/sh
-#starts everything that should be done at startup
 sudo macfanctld
-touch /home/teodoro/Desktop/working #to check if it is working
+echo XHC1 | sudo tee /proc/acpi/wakeup
+powertop --auto-tune
+nmcli device set wlp3s0 managed no
+indicator-multiload &
+touch /home/teodoro/Desktop/working
+

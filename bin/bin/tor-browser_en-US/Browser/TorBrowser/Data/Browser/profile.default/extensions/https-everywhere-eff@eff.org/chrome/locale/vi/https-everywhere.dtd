@@ -1,6 +1,6 @@
-<!ENTITY https-everywhere.about.title "Thông tin về HTTPS Everywhere">
+<!ENTITY https-everywhere.about.title "Về HTTPS Everywhere">
 <!ENTITY https-everywhere.about.ext_name "HTTPS Everywhere">
-<!ENTITY https-everywhere.about.ext_description "Mã hóa trang web! Tự động sử dụng bảo mật HTTPS ở nhiều trang web.">
+<!ENTITY https-everywhere.about.ext_description "Mã hóa Web! Tự động sử dụng bảo mật HTTPS ở nhiều trang web.">
 <!ENTITY https-everywhere.about.version "Phiên bản">
 <!ENTITY https-everywhere.about.created_by "Tạo ra bởi">
 <!ENTITY https-everywhere.about.and ", và">

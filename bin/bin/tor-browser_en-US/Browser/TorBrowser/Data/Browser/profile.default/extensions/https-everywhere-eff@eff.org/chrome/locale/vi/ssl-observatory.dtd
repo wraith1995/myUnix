@@ -1,6 +1,6 @@
 <!-- Observatory popup window -->
-<!ENTITY ssl-observatory.popup.details "Chi tiết và thông tin bảo mật">
-<!ENTITY ssl-observatory.popup.later "Hỏi sau">
+<!ENTITY ssl-observatory.popup.details "Thông tin riêng tư và chi tiết">
+<!ENTITY ssl-observatory.popup.later "Hỏi tôi sau">
 <!ENTITY ssl-observatory.popup.no "Không">
 
 <!ENTITY ssl-observatory.popup.text "HTTPS Everywhere có thể dò ra các cuộc tấn công

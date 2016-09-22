@@ -15,16 +15,17 @@
  ("/home/teodoro/projects/phil/" . "src/")
  ("/home/teodoro/projects/guessing_game/" . "src/")
  ("/home/teodoro/projects/" . "phil/")
- ("/home/teodoro/" . "bin/")
+ ("/home/teodoro/" . "gits/")
  ("/home/" . "teodoro/")
  ("/" . "home/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/teodoro/bin/"
  "/home/teodoro/gits/stochasticarchive.net/"
  "/home/teodoro/binfiles/"
+ "/home/teodoro/bin/"
+ "/media/veracrypt1/"
  "/home/teodoro/"
  "/home/teodoro/gits/stochasticarchive.net/_site/"
  "/home/teodoro/gits/"
@@ -44,27 +45,31 @@
 
 ;; ----- ido-work-file-list -----
 (
- "startupscript"
- "site.hs"
  "whoami.markdown"
+ "site.hs"
+ "wepwifi.sh"
+ "wepwifi"
+ "end"
+ "startupscript"
  "startupscript.sh"
  ".gtk-bookmarks"
  "whoami.html"
  "actual.cabal"
- "stack.yaml"
- "note"
- ".profile"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/teodoro/bin/" (22494 64484 88278 807000) "shuf" "tor-browser_en-US/" "../" "allsystemsgo" "try" "faninfo" "tavern.rb" "wepwifi" "stardate" "startupscript" "ssid" "condmsg" "lip" "Telegram/" "./" "iip")
+ ("/home/teodoro/gits/stochasticarchive.net/" (22499 25572 612963 62000) "actual.cabal" "documentation.markdown" "site.hs" "../" "org/" "_cache/" "resource/" ".gitignore" "index.markdown" "stack.yaml" "_site/" "whoami.markdown" ".git/" "blog/" "firstarticle.org" "static/" ".stack-work/" "README.md" "./")
 
- ("/home/teodoro/" (22495 1911 51342 369000) "pia.sh" "Public/" "bin/" "crypt/" ".ghc/" ".bash_history" "teocollin1995@gmail.com/" ".pki/" ".emacs~" ".pia_manager/" ".gnome/" ".indicator-sysmonitor.json" ".Mathematica/" ".TelegramDesktop/" "tg/" "../" ".bash_logout" ".gnome2/" ".gphoto/" ".local/" "The Crap Folder/" ".python_history" ".profile" ".xsession-errors.old" ".dbus/" ".com.privateinternetaccess.vpn/" "note" ".gnome2_private/" "Dump/" ".gconf/" "Desktop/" ".Xauthority" ".Wolfram/" ".backup/" ".mozilla/" "Pictures/" "Documents/" "tests/" "nohup.out" ".adobe/" ".bashrc" ".bash_profile" ".emacs" "Videos/" "Music/" ".dmrc" ".macromedia/" ".ICEauthority" ".key/" ".gstreamer-0.10/" "Templates/" "Downloads/" ".emacs.d/" "gits/" ".gnupg/" ".bash_eternal_history" ".config/" "binfiles/" ".xsession-errors" ".wget-hsts" ".cache/" ".sudo_as_admin_successful" ".gtk-bookmarks" ".opera/" "./" ".gitconfig" ".pia_manager_crash.log" ".stack/")
+ ("/home/teodoro/gits/json-glib/" (22446 54902 852296 0) "build/" "json-glib.doap" "COPYING" "stamp-h1" "../" "config.h" ".gitignore" "Makefile.am" "Makefile.in" "config.log" ".git/" "configure" "doc/" "autogen.sh" "autom4te.cache/" "config.h.in" "README.md" "libtool" "Makefile" "aclocal.m4" "gtk-doc.make" "json-glib/" "./" "config.status" "NEWS" "ABOUT-NLS" "po/" "configure.ac")
 
- ("/home/teodoro/gits/stochasticarchive.net/" (22495 11028 618090 487000) "actual.cabal" "documentation.markdown" "site.hs" "../" "org/" "_cache/" "resource/" ".gitignore" "index.markdown" "stack.yaml" "_site/" "whoami.markdown" ".git/" "blog/" "firstarticle.org" "static/" ".stack-work/" "README.md" "./")
+ ("/home/teodoro/" (22499 26581 304649 313000) "pia.sh" "Public/" "bin/" "crypt/" ".ghc/" ".bash_history" "teocollin1995@gmail.com/" ".pki/" ".emacs~" ".pia_manager/" ".gnome/" ".indicator-sysmonitor.json" ".wpa_cli_history" ".Mathematica/" ".TelegramDesktop/" "tg/" "../" ".bash_logout" ".gnome2/" ".gphoto/" ".local/" "The Crap Folder/" ".python_history" ".profile" "a" ".xsession-errors.old" ".VeraCrypt-lock-teodoro" ".dbus/" ".com.privateinternetaccess.vpn/" "note" ".gnome2_private/" "Dump/" ".gconf/" "Desktop/" ".Xauthority" ".Wolfram/" ".backup/" ".mozilla/" "Pictures/" "Documents/" "tests/" "nohup.out" ".remmina/" ".adobe/" ".bashrc" ".bash_profile" ".emacs" "Videos/" "Music/" ".dmrc" ".macromedia/" ".ICEauthority" ".key/" ".gstreamer-0.10/" "Templates/" "Downloads/" ".emacs.d/" "gits/" ".gnupg/" ".bash_eternal_history" ".config/" "binfiles/" ".xsession-errors" ".wget-hsts" ".cache/" ".sudo_as_admin_successful" ".gtk-bookmarks" "sysfiles/" ".opera/" "./" ".nano/" ".gitconfig" ".pia_manager_crash.log" ".stack/")
 
- ("/home/teodoro/binfiles/" (22492 7807 686687 951000) "boing.py" "telegram_histories.sh" "../" "ip.sh" "togit.sh" "linkedfiles.py" "ssid.sh" "installscripts.sh" "allsystemsgo.sh" "unboing.py" "waittest.sh" "killnetworkmanager.sh" "lip.sh" "tavern.rb" "startupscript.sh" "faninfo.sh" "linkfile.sh" "wepwifi.sh" "condmsg.sh" "vig.hs" "shuf.hs" "telegramtex.sh" "./" "try.sh" "ptp/")
+ ("/home/teodoro/binfiles/" (22496 32539 806773 808000) "boing.py" "telegram_histories.sh" "../" "ip.sh" "togit.sh" "linkedfiles.py" "ssid.sh" "installscripts.sh" "allsystemsgo.sh" "unboing.py" "waittest.sh" "killnetworkmanager.sh" "lip.sh" "tavern.rb" "startupscript.sh" "faninfo.sh" "linkfile.sh" "wepwifi.sh" "condmsg.sh" "vig.hs" "shuf.hs" "telegramtex.sh" "./" "try.sh" "ptp/")
+
+ ("/home/teodoro/bin/" (22499 8021 117977 205000) "shuf" "tor-browser_en-US/" "togit" "../" "allsystemsgo" "try" "faninfo" "tavern.rb" "wepwifi" "stardate" "startupscript" "ssid" "condmsg" "lip" "Telegram/" "./" "iip")
+
+ ("/media/veracrypt1/" (22495 21208 0 0) ".#start" "start" "photo_2016-09-17_13-45-13.jpg" "notes" "../" "./")
 
  ("/etc/" (22492 5395 855503 767000) "environment" "magic.mime" "rcS.d/" "rc4.d/" "fstab" "insserv.conf" "sane.d/" "init/" "papersize" "updatedb.conf" "passwd" "mtools.conf" "iproute2/" "newt/" "appstream.conf" "host.conf" "inputrc" "chkrootkit.conf" "pm/" "gshadow" "rc1.d/" "bash_completion.d/" "signond.conf" "update-manager/" "ssl/" "protocols" "rc5.d/" "bluetooth/" "libpaper.d/" "shells" "calendar/" "ufw/" "signon-ui/" "dconf/" "wildmidi/" "debconf.conf" "services" "gss/" "emacs/" "ca-certificates/" "apg.conf" "snoopy.ini" "X11/" "gtk-3.0/" "aliases.db" "kbd/" "cron.hourly/" "fonts/" "tex4ht/" "gconf/" "libaudit.conf" "localtime" "shadow-" "sbcl.rc" "upstart-xsessions" "sysctl.d/" "sudoers.d/" "sgml/" "apparmor.d/" "ld.so.preload" "networks" "shadow" "macfanctl.conf.bk" "ldap/" "rc0.d/" "bash.bashrc" "apport/" "speech-dispatcher/" "gai.conf" "machine-id" "default/" "ocamlfind.conf" "gnome-app-install/" "udisks2/" "openal/" "issue.net" "update-notifier/" "ltrace.conf" "drirc" "ca-certificates.conf" "systemd/" "python3/" "libao.conf" "profile.d/" "python3.5/" "xml/" "thunderbird/" "apt/" "rpc" "wgetrc" "gtk-2.0/" "emacs24/" "os-release" "compizconfig/" "insserv.conf.d/" "terminfo/" "cracklib/" "pam.d/" "gshadow-" "pulse/" "tor/" "resolv.conf" "apm/" "rsyslog.conf" "dkms/" "screenrc" "subuid-" "ld.so.conf" "mailcap" "rkhunter.conf" "pcmcia/" "ifplugd/" "opt/" "vdpau_wrapper.cfg" "python/" "depmod.d/" "vtrgb" "modules" "console-setup/" "macfanctl.conf" "logrotate.d/" "ucf.conf" "legal" "perl/" "sensors.d/" "libnl-3/" "hostname" "NetworkManager/" "bindresvport.blacklist" "iftab" "brltty.conf" "grub.d/" "fwupd.conf" "lsb-release" "magic" "zsh_command_not_found" "anacrontab" "bash_completion" "apache2/" "at-spi2/" "logcheck/" "modules-load.d/" "pki/" "manpath.config" "usb_modeswitch.d/" "network/" "udev/" "subgid" "ld.so.conf.d/" "subuid" "LatexMk" "python2.7/" "gdb/" ".pwd.lock" "ImageMagick-6/" "dictionaries-common/" "postfix/" "mailcap.order" "crontab" "mono/" "sensors3.conf" "mke2fs.conf" "sysctl.conf.insyncbak" "group-" "kernel-img.conf" "lightdm/" "cupshelpers/" "chatscripts/" "thermald/" "xdg/" "pam.conf" "dbus-1/" "profile" "rc2.d/" "cron.monthly/" "modprobe.d/" "rsyslog.d/" "dpkg/" "group" "binfmt.d/" "login.defs" "groff/" "firefox/" "dnsmasq.d/" "cron.weekly/" "resolvconf/" "chktexrc" "fuse.conf" "insserv/" "selinux/" "adduser.conf" "libreoffice/" "usb_modeswitch.conf" "issue" "wpa_supplicant/" "tmpfiles.d/" "hosts.allow" "popularity-contest.conf" "mail.rc" "mtab" "cron.daily/" "hdparm.conf" "deluser.conf" "cron.d/" "initramfs-tools/" "security/" "ghostscript/" "alternatives/" "sudoers" "sysctl.conf" "hosts" "ld.so.cache" "rc6.d/" "UPower/" "acpi/" "pnm2ppa.conf" "ppp/" "brltty/" "dhcp/" "hp/" "lighttpd/" "guest-session/" "prelink.conf.d/" "apparmor/" "doc-base/" "locale.alias" "rc.local" "kernel/" "securetty" "timidity/" "nsswitch.conf" "kerneloops.conf" "hosts.deny" "timezone" "mime.types" "avahi/" "chromium-browser/" "R/" "geoclue/" "init.d/" "vim/" "lintianrc" "aptdaemon/" "nanorc" "ssh/" "aliases" "polkit-1/" "rmt" "texmf/" "skel/" "debian_version" "logrotate.conf" "passwd-" "gnome/" "update-motd.d/" "brlapi.key" "locale.gen" "rc3.d/" "subgid-" "cups/" "../" "./")
 

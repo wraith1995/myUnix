@@ -48,7 +48,7 @@ alias say="espeak"
 alias mkdir="mkdir -pv"
 alias ..='cd ..'
 alias view='xdg-open .'
-alias getwifi='sudo ifdown wlan0; sudo ifup wlan0'
+alias getwifi='sudo ifdown wlp3s0; sudo ifup wlp3s0'
 alias modelinfo='sudo dmidecode -s system-product-name'
 alias su="sudo -i"
 #alias 'dus=du -sckx * | sort -nr' #directories sorted by size
@@ -57,7 +57,10 @@ alias reboot="sudo shutdown -r now"
 alias off="sudo shutdown -h now"
 alias top="htop"
 alias nmrestart='sudo /etc/init.d/network-manager restart'
-
+alias stopnm='sudo systemctl stop NetworkManager.service'
+alias startnm='sudo systemctl start NetworkManager.service'
+alias killwifi='nmcli device set wlp3s0 managed no'
+alias unkillwifi='nmcli device set wlp3s0 managed yes'
 
 #functions:
 

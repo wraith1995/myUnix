@@ -1,11 +1,11 @@
 <!-- Observatory popup window -->
-<!ENTITY ssl-observatory.popup.details "Details and Privacy Information">
-<!ENTITY ssl-observatory.popup.later "Ask Me Later">
+<!ENTITY ssl-observatory.popup.details "Informationes minores et informationes abdititudinis">
+<!ENTITY ssl-observatory.popup.later "Roga me postea">
 <!ENTITY ssl-observatory.popup.no "Non">
 
-<!ENTITY ssl-observatory.popup.text "HTTPS Everywhere can detect attacks
-against your browser by sending the certificates you receive to the
-Observatory.  Turn this on?">
+<!ENTITY ssl-observatory.popup.text "HTTPS In Omnibus Locis temptationes
+contra navem tuam missione certitudinum acceptarum ad Observatorium invenire potest.
+Inirene id?">
 
 <!--<!ENTITY ssl-observatory.popup.text 
 "EFF's SSL Observatory can detect attacks against HTTPS websites by collecting
@@ -13,18 +13,18 @@ and auditing the certificates being presented to your browser. Would you like
 to turn it on?">-->
 
 <!ENTITY ssl-observatory.popup.title 
-"Should HTTPS Everywhere use the SSL Observatory?">
+"Usetne HTTPS In Omnibus Locis SSL Observatorium?">
 
 <!ENTITY ssl-observatory.popup.yes "Est">
 
 <!-- Observatory preferences dialog -->
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts1
-"It is safe to enable this, unless you use a very
-intrusive corporate network:">
+"Id inire certe est, nisi intrissimum
+coniunctionem usas.">
 
 <!ENTITY ssl-observatory.prefs.adv_priv_opts2
-"Safe, unless you use a corporate network with secret intranet server names:">
+"Certe, nisi coniunctionem nominibus abditibus intra-coniunctionis:">
 
 <!ENTITY ssl-observatory.prefs.alt_roots 
 "Submit and check certificates signed by non-standard root CAs">
@@ -86,7 +86,7 @@ looked at.  Mouseover the options for further details:">
 
 <!ENTITY ssl-observatory.prefs.show "Show advanced options">
 
-<!ENTITY ssl-observatory.prefs.title "SSL Observatory Preferences">
+<!ENTITY ssl-observatory.prefs.title "Praeferentiae observandi SSL">
 
 <!ENTITY ssl-observatory.prefs.use "Use the Observatory?">
 <!ENTITY ssl-observatory.warning.title "WARNING from EFF's SSL Observatory">
