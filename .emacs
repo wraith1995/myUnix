@@ -89,7 +89,9 @@
  '(main-line-color1 "#191919")
  '(main-line-color2 "#111111")
  '(powerline-color1 "#191919")
- '(powerline-color2 "#111111"))
+ '(powerline-color2 "#111111")
+ '(initial-buffer-choice (expand-file-name "~/org/tl.org")) ;;load this as our first buffer
+ )
 
 ;;ecb:
 (add-to-list 'load-path "~/.emacs.d/ecb")
@@ -177,6 +179,9 @@
 (define-key global-map "\C-cl" 'org-store-link)
 (define-key global-map "\C-ca" 'org-agenda)
 (setq org-log-done t)
+;;http://orgmode.org/worg/org-tutorials/orgtutorial_dto.html
+(setq org-agenda-files (list "~/org/tl.org"))
+
 
 
 ;;Latex stuff:
@@ -252,6 +257,7 @@
     (org-todo (if (= n-not-done 0) "DONE" "TODO"))))
 (add-hook 'org-after-todo-statistics-hook 'org-summary-todo)
 (put 'upcase-region 'disabled nil)
+
 
 
 

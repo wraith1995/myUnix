@@ -10,7 +10,7 @@
  ("/home/teodoro/gits/stochasticarchive.net/" . "_site/")
  ("/home/teodoro/gits/" . "stochasticarchive.net/")
  ("/home/teodoro/teocollin1995@gmail.com/reu2016/" . "paper/")
- ("/home/teodoro/teocollin1995@gmail.com/" . "reu2016/")
+ ("/home/teodoro/teocollin1995@gmail.com/" . "org/")
  ("/home/teodoro/binfiles/" . "ptp/")
  ("/home/teodoro/projects/phil/" . "src/")
  ("/home/teodoro/projects/guessing_game/" . "src/")
@@ -22,11 +22,14 @@
 
 ;; ----- ido-work-directory-list -----
 (
+ "/home/teodoro/"
  "/home/teodoro/gits/stochasticarchive.net/"
+ "/home/teodoro/org/"
+ "/home/teodoro/teocollin1995@gmail.com/org/"
+ "/home/teodoro/teocollin1995@gmail.com/reu2016/paper/"
  "/home/teodoro/binfiles/"
  "/home/teodoro/bin/"
  "/media/veracrypt1/"
- "/home/teodoro/"
  "/home/teodoro/gits/stochasticarchive.net/_site/"
  "/home/teodoro/gits/"
  "/home/teodoro/tests/difflab/"
@@ -34,9 +37,7 @@
  "/home/teodoro/gits/stochasticarchive.net/static/css/"
  "/home/teodoro/gits/stochasticarchive.net/blog/gwern.net/static/css/"
  "/home/teodoro/gits/stochasticarchive.net/blog/gwern.net/"
- "/home/teodoro/teocollin1995@gmail.com/reu2016/paper/"
  "/home/teodoro/binfiles/ptp/"
- "/home/teodoro/org/"
  "/home/teodoro/pcl/"
  "/home/teodoro/binfiles/commenter/"
  "/home/teodoro/projects/phil/src/"
@@ -45,29 +46,41 @@
 
 ;; ----- ido-work-file-list -----
 (
+ ".emacs"
  "whoami.markdown"
+ "tl.org"
  "site.hs"
+ "collin.tex"
  "wepwifi.sh"
  "wepwifi"
  "end"
  "startupscript"
  "startupscript.sh"
- ".gtk-bookmarks"
- "whoami.html"
- "actual.cabal"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/teodoro/gits/stochasticarchive.net/" (22499 25572 612963 62000) "actual.cabal" "documentation.markdown" "site.hs" "../" "org/" "_cache/" "resource/" ".gitignore" "index.markdown" "stack.yaml" "_site/" "whoami.markdown" ".git/" "blog/" "firstarticle.org" "static/" ".stack-work/" "README.md" "./")
+ ("/home/teodoro/" (22500 54259 225180 655000) "pia.sh" "Public/" "bin/" "crypt/" ".ghc/" ".bash_history" "teocollin1995@gmail.com/" ".pki/" ".emacs~" ".pia_manager/" ".gnome/" ".indicator-sysmonitor.json" ".wpa_cli_history" ".Mathematica/" ".TelegramDesktop/" "tg/" "../" "org/" ".bash_logout" ".gnome2/" ".gphoto/" ".local/" "The Crap Folder/" ".python_history" ".profile" "a" ".xsession-errors.old" ".dbus/" ".com.privateinternetaccess.vpn/" "note" ".gnome2_private/" "Dump/" ".gconf/" "Desktop/" ".Xauthority" ".Wolfram/" ".backup/" ".mozilla/" "Pictures/" "Documents/" "tests/" "nohup.out" ".remmina/" ".adobe/" ".bashrc" ".bash_profile" ".emacs" "Videos/" "Music/" ".dmrc" ".macromedia/" ".ICEauthority" ".key/" ".gstreamer-0.10/" "Templates/" "Downloads/" ".emacs.d/" "gits/" ".gnupg/" ".bash_eternal_history" ".config/" "binfiles/" ".xsession-errors" ".wget-hsts" ".cache/" ".sudo_as_admin_successful" ".gtk-bookmarks" "sysfiles/" ".opera/" "./" ".nano/" ".gitconfig" ".pia_manager_crash.log" ".stack/")
+
+ ("/home/teodoro/org/" (22500 54003 766239 382000) "../" "org" "tl.org" "crapbackup/" "./")
+
+ ("/home/teodoro/gits/stochasticarchive.net/" (22500 53486 638521 222000) "actual.cabal" "documentation.markdown" "site.hs" "../" "org/" "_cache/" "resource/" ".gitignore" "index.markdown" "stack.yaml" "_site/" "whoami.markdown" ".git/" "blog/" "firstarticle.org" "static/" ".stack-work/" "README.md" "./")
+
+ ("/home/teodoro/gits/stochasticarchive.net/_site/" (22500 4106 605045 970000) "index.html" "../" "documentation.html" "blog/" "static/" "whoami.html" "tags/" "./")
+
+ ("/home/teodoro/bin/" (22499 25552 704328 816000) "shuf" "tor-browser_en-US/" "togit" "../" "allsystemsgo" "try" "faninfo" "tavern.rb" "wepwifi" "stardate" "startupscript" "ssid" "condmsg" "lip" "Telegram/" "./" "iip")
+
+ ("/home/teodoro/binfiles/" (22500 14114 672415 733000) "boing.py" "telegram_histories.sh" "../" "ip.sh" "togit.sh" "linkedfiles.py" "ssid.sh" "installscripts.sh" "allsystemsgo.sh" "unboing.py" "waittest.sh" "killnetworkmanager.sh" "lip.sh" "tavern.rb" "startupscript.sh" "faninfo.sh" "linkfile.sh" "wepwifi.sh" "condmsg.sh" "vig.hs" "shuf.hs" "telegramtex.sh" "./" "try.sh" "ptp/")
+
+ ("/home/teodoro/teocollin1995@gmail.com/reu2016/paper/" (22500 50276 159466 774000) "../" "collin.tex" "paper.tex.bk.2" "feedbackmay" "collin.aux" "collin.log" "_region_.tex" "_region_.log" "paper.log" "paper.toc" "prv_collin.log" "collin.toc" "paper.tex.bk" "auto/" "notes.org" "collinRoughDraft.pdf" "paper.pdf" "paper.tex" "_region_.prv/" "./" "paper.aux" "thingstodo" "collin.pdf")
+
+ ("/home/teodoro/teocollin1995@gmail.com/org/" (22500 52464 294231 688000) "../" "crapbackup/" "./")
+
+ ("/home/teodoro/teocollin1995@gmail.com/Organizational/" (22490 29457 124290 194000) "Contact/" "../" "RSS/" "reddits.rtf" "Reddit/" "./" "Grand/")
+
+ ("/home/teodoro/teocollin1995@gmail.com/" (22500 27677 75072 420000) "fanfic/" "notes/" "Data stuff/" "Distribution Point/" "Dump for transfer/" "mathbooksdump/" "Games/" "Ron Larson, Bruce H. Edwards Calculus.pdf" "Winter break reading project (Kunen)/" "teno.odt" "drop/" "srs.odt" "CS161 Review.gddoc" "../" "dnd/" "org/" "C:UserstestAppDataLocalTempInv_29201_from_LEATHER_ETC..pdf" "Burke Group/" "mond transfer/" "Tech Orientation Lesson Plans Student 2014.gddoc" "Uchicago 2014 - 2014/" "collin_essay2VenableComments.docx" "manuals/" "Programming/" "You’ll Be Back.gddoc" "ptp.tgz" "Algebra - Serge Lang.pdf" "Maclean Photos/" "high school crap very disorngaized dont look ever/" "Math Text Share/" "damian_stuff.gddoc" "Stat 244 Note Sheet.gddoc" "Summer 2016 Tech Schedule.gdsheet" "247A.Notes.pdf" "SC Gen Prez. Poll Report 9-14-16.pdf" "V3 draft (Gigi).gddoc" "uchicago20161/" "More Crap/" "CS161 Midterm Cheat Sheet.gddoc" "Organizational/" "uchicago20152/" "Archive/" "Transfer/" "David Halliday, Robert Resnick, Jearl Walker Fundamentals of Physics.pdf" "Endings Experiment.gddoc" "Fanfic B/" "memos/" "Blog failures/" "2013-14 Hum Core Syllabi (copy)/" "Projects New/" "root folder/" "Fanfic A/" "Burke Drive/" "syllbus/" "I CANT MAKE IT ON MY OWNNNWNWNWNWNW.mp4" "Random/" "damian_signatures.gddoc" "tempb/" "Your Anime Sucks- Sword Art Online II [part 2] PROGRESSIVE; OFFICIAL PUBLISHED VERSION.mp4" "functionalFinalProject/" "./" "reu2016/" "Uchicago 2015/" "MScdssrtnWrwck.pdf" "uchicago20162/")
 
  ("/home/teodoro/gits/json-glib/" (22446 54902 852296 0) "build/" "json-glib.doap" "COPYING" "stamp-h1" "../" "config.h" ".gitignore" "Makefile.am" "Makefile.in" "config.log" ".git/" "configure" "doc/" "autogen.sh" "autom4te.cache/" "config.h.in" "README.md" "libtool" "Makefile" "aclocal.m4" "gtk-doc.make" "json-glib/" "./" "config.status" "NEWS" "ABOUT-NLS" "po/" "configure.ac")
-
- ("/home/teodoro/" (22499 26581 304649 313000) "pia.sh" "Public/" "bin/" "crypt/" ".ghc/" ".bash_history" "teocollin1995@gmail.com/" ".pki/" ".emacs~" ".pia_manager/" ".gnome/" ".indicator-sysmonitor.json" ".wpa_cli_history" ".Mathematica/" ".TelegramDesktop/" "tg/" "../" ".bash_logout" ".gnome2/" ".gphoto/" ".local/" "The Crap Folder/" ".python_history" ".profile" "a" ".xsession-errors.old" ".VeraCrypt-lock-teodoro" ".dbus/" ".com.privateinternetaccess.vpn/" "note" ".gnome2_private/" "Dump/" ".gconf/" "Desktop/" ".Xauthority" ".Wolfram/" ".backup/" ".mozilla/" "Pictures/" "Documents/" "tests/" "nohup.out" ".remmina/" ".adobe/" ".bashrc" ".bash_profile" ".emacs" "Videos/" "Music/" ".dmrc" ".macromedia/" ".ICEauthority" ".key/" ".gstreamer-0.10/" "Templates/" "Downloads/" ".emacs.d/" "gits/" ".gnupg/" ".bash_eternal_history" ".config/" "binfiles/" ".xsession-errors" ".wget-hsts" ".cache/" ".sudo_as_admin_successful" ".gtk-bookmarks" "sysfiles/" ".opera/" "./" ".nano/" ".gitconfig" ".pia_manager_crash.log" ".stack/")
-
- ("/home/teodoro/binfiles/" (22496 32539 806773 808000) "boing.py" "telegram_histories.sh" "../" "ip.sh" "togit.sh" "linkedfiles.py" "ssid.sh" "installscripts.sh" "allsystemsgo.sh" "unboing.py" "waittest.sh" "killnetworkmanager.sh" "lip.sh" "tavern.rb" "startupscript.sh" "faninfo.sh" "linkfile.sh" "wepwifi.sh" "condmsg.sh" "vig.hs" "shuf.hs" "telegramtex.sh" "./" "try.sh" "ptp/")
-
- ("/home/teodoro/bin/" (22499 8021 117977 205000) "shuf" "tor-browser_en-US/" "togit" "../" "allsystemsgo" "try" "faninfo" "tavern.rb" "wepwifi" "stardate" "startupscript" "ssid" "condmsg" "lip" "Telegram/" "./" "iip")
 
  ("/media/veracrypt1/" (22495 21208 0 0) ".#start" "start" "photo_2016-09-17_13-45-13.jpg" "notes" "../" "./")
 
@@ -76,8 +89,6 @@
  ("/etc/systemd/" (22414 37085 0 0) "../" "bootchart.conf" "logind.conf" "network/" "user.conf" "user/" "journald.conf" "system.conf" "resolved.conf" "timesyncd.conf" "system/" "./")
 
  ("/etc/systemd/system/" (22493 26837 513057 192000) "hibernate.target.wants/" "timers.target.wants/" "../" "shutdown.target.wants/" "default.target.wants/" "display-manager.service" "network-online.target.wants/" "dbus-org.freedesktop.nm-dispatcher.service" "dbus-org.bluez.service" "display-manager.service.wants/" "sockets.target.wants/" "hybrid-sleep.target.wants/" "printer.target.wants/" ".#macfanctld.service" "dbus-org.freedesktop.Avahi.service" "bluetooth.target.wants/" "paths.target.wants/" "dbus-org.freedesktop.ModemManager1.service" "getty.target.wants/" "sysinit.target.wants/" "multi-user.target.wants/" "syslog.service" "graphical.target.wants/" "./" "suspend.target.wants/" "macfanctld.service" "dbus-org.freedesktop.thermald.service")
-
- ("/home/teodoro/gits/stochasticarchive.net/_site/" (22492 11782 987443 871000) "index.html" "../" "documentation.html" "blog/" "static/" "whoami.html" "tags/" "./")
 
  ("/home/teodoro/binfiles/ptp/" (22492 1806 539853 75000) "r_packages" "p3" "progressbar.sh" "copy" "../" "r_add_packages.sh" "quicklisp_get_packages.sh" "apt-repo" "p2" "note" "pip_add_packages.sh" ".transfer_scripts" "apt-get-repos.sh" ".list_of_package_scripts" "apt-add-packages.sh" "pip_get_packages.sh" "start" "end" "apt-packages" "julia_add_packages.sh" ".list_of_config_dirs" ".list_of_config_files" "apt-add-repos.sh" "quicklisp.sh" "apt-get-packages.sh" "juliapackages" "julia_get_packages.sh" "./" "backup-pe.sh" "r_get_packages.sh")
 
@@ -109,15 +120,9 @@
 
  ("/home/teodoro/binfiles/commenter/" (22016 17537 284296 0) "commener.lisp" "../" "comments.py" "comments" "./")
 
- ("/home/teodoro/teocollin1995@gmail.com/reu2016/paper/" (22491 3155 500766 909000) "../" "collin.tex" "paper.tex.bk.2" "feedbackmay" "collin.aux" "collin.log" "_region_.tex" "_region_.log" "paper.log" "paper.toc" "prv_collin.log" "collin.toc" "paper.tex.bk" "auto/" "notes.org" "collinRoughDraft.pdf" "paper.pdf" "paper.tex" "_region_.prv/" "./" "paper.aux" "thingstodo" "collin.pdf")
-
  ("/home/teodoro/teocollin1995@gmail.com/reu2016/" (22490 29915 301622 890000) "../" "bpres/" "texedstuff/" "paper/" "641012632.pdf" "books/" "tmp/" "mayfeedback/" "VisualComplexAnalysis-Needham.pdf" "wigner1955.pdf" "./" "pres/" "RandomMatricesAGZ.pdf")
 
- ("/home/teodoro/teocollin1995@gmail.com/" (22490 45477 69989 172000) "fanfic/" "notes/" "Data stuff/" "Distribution Point/" "Dump for transfer/" "mathbooksdump/" "Games/" "Winter break reading project (Kunen)/" "teno.odt" "drop/" "srs.odt" "CS161 Review.gddoc" "../" "dnd/" "org/" "C:UserstestAppDataLocalTempInv_29201_from_LEATHER_ETC..pdf" "Burke Group/" "mond transfer/" "Tech Orientation Lesson Plans Student 2014.gddoc" "Uchicago 2014 - 2014/" "collin_essay2VenableComments.docx" "manuals/" "Programming/" "You’ll Be Back.gddoc" "ptp.tgz" "Algebra - Serge Lang.pdf" "Maclean Photos/" "high school crap very disorngaized dont look ever/" "Math Text Share/" "damian_stuff.gddoc" "Stat 244 Note Sheet.gddoc" "Summer 2016 Tech Schedule.gdsheet" "247A.Notes.pdf" "SC Gen Prez. Poll Report 9-14-16.pdf" "V3 draft (Gigi).gddoc" "uchicago20161/" "More Crap/" "CS161 Midterm Cheat Sheet.gddoc" "Organizational/" "uchicago20152/" "Archive/" "Transfer/" "Endings Experiment.gddoc" "Fanfic B/" "memos/" "Blog failures/" "2013-14 Hum Core Syllabi (copy)/" "Projects New/" "root folder/" "Fanfic A/" "Burke Drive/" "syllbus/" "I CANT MAKE IT ON MY OWNNNWNWNWNWNW.mp4" "Random/" "damian_signatures.gddoc" "tempb/" "Your Anime Sucks- Sword Art Online II [part 2] PROGRESSIVE; OFFICIAL PUBLISHED VERSION.mp4" "functionalFinalProject/" "./" "reu2016/" "Uchicago 2015/" "MScdssrtnWrwck.pdf" "uchicago20162/")
-
  ("/home/teodoro/quicklisp/" (21974 38554 382472 941000) "asdf.lisp" "setup.lisp" "tmp/" "quicklisp/" "../" "cache/" "./" "client-info.sexp" "local-projects/" "dists/")
-
- ("/home/teodoro/org/" (21996 50669 905897 8000) "work.org" "../" "./" "projects.org" "reading.org" "school.org" "backuppe.org" "general.org" "computer.org" "random.org")
 
  ("/usr/" (21969 6803 340546 119000) "src/" "bin/" "include/" "lib/" "lib32/" "../" "share/" "games/" "local/" "./" "sbin/")
 
